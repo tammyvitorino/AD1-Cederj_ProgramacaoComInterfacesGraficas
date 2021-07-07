@@ -1,0 +1,303 @@
+\hypertarget{classCustomer_1_1Customer}{}\section{Customer.\+Customer Class Reference}
+\label{classCustomer_1_1Customer}\index{Customer.\+Customer@{Customer.\+Customer}}
+
+
+A \hyperlink{classCustomer_1_1Customer}{Customer} is a client of a \hyperlink{namespaceVideoStore}{Video\+Store} who can rent items.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classCustomer_1_1Customer_a9a6e72f7972ab6669244ee32b5c15fa8}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, name)
+\begin{DoxyCompactList}\small\item\em Constructs a \hyperlink{classCustomer_1_1Customer}{Customer} with the given name. \end{DoxyCompactList}\item 
+def \hyperlink{classCustomer_1_1Customer_aeda8ba0748ed02a22582207d04d90d62}{rent\+Item} (self, item, today)
+\begin{DoxyCompactList}\small\item\em Rents an item and adds it to this customer\textquotesingle{}s list of items. \end{DoxyCompactList}\item 
+def \hyperlink{classCustomer_1_1Customer_ac589f3f34db4ca44e3071e7260f5f8b6}{bring\+Back\+Item} (self, barcode, today)
+\begin{DoxyCompactList}\small\item\em Returns an item that this customer currently has rented and updates the balance if a late fee or credit is due. \end{DoxyCompactList}\item 
+def \hyperlink{classCustomer_1_1Customer_aebb56585524424bcededa48f90a2dde6}{get\+Balance} (self)
+\begin{DoxyCompactList}\small\item\em Returns the balance for this customer. \end{DoxyCompactList}\item 
+def \hyperlink{classCustomer_1_1Customer_a154e1dbfb02e85d29b52e620b6283677}{get\+Name} (self)
+\begin{DoxyCompactList}\small\item\em Returns the name of this customer. \end{DoxyCompactList}\item 
+def \hyperlink{classCustomer_1_1Customer_a87070bd1a552dd094365dc4464253a3a}{make\+Payment} (self, amount)
+\begin{DoxyCompactList}\small\item\em Makes a payment on this customer\textquotesingle{}s balance. \end{DoxyCompactList}\item 
+def \hyperlink{classCustomer_1_1Customer_aa12655d57338586f1ee2a5c101d44356}{\+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\begin{DoxyCompactList}\small\item\em Returns a string representation of this customer. \end{DoxyCompactList}\item 
+def \hyperlink{classCustomer_1_1Customer_ad2f1246cd764010c5701930f6576f5e0}{can\+Rent} (self, today)
+\begin{DoxyCompactList}\small\item\em Helper method determines whether this customer already has overdue items. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCustomer_1_1Customer_a573f55a71c994b6881a99fe055e9e1c2}{\+\_\+\+\_\+items\+Out}
+\begin{DoxyCompactList}\small\item\em Items currently rented by this customer. \end{DoxyCompactList}\item 
+\hyperlink{classCustomer_1_1Customer_a400a0ef109352dbf3f843006f22e611f}{\+\_\+\+\_\+name}
+\begin{DoxyCompactList}\small\item\em Name of this customer. \end{DoxyCompactList}\item 
+\hyperlink{classCustomer_1_1Customer_a3fe2716ffce15422d3bebc6989a1353d}{\+\_\+\+\_\+balance}
+\begin{DoxyCompactList}\small\item\em Balance currently owed by this customer. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+A \hyperlink{classCustomer_1_1Customer}{Customer} is a client of a \hyperlink{namespaceVideoStore}{Video\+Store} who can rent items. 
+
+A client is identified by a unique name. At any given time a \hyperlink{classCustomer_1_1Customer}{Customer} has a list of items currently rented, and a balance representing rental charges, late fees, or credits (where a negative balance indicates a credit). Balances are in cents. Ordinary customers are not allowed to rent new items if they have any items overdue. 
+
+Definition at line 25 of file Customer.\+py.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCustomer_1_1Customer_a9a6e72f7972ab6669244ee32b5c15fa8}\label{classCustomer_1_1Customer_a9a6e72f7972ab6669244ee32b5c15fa8}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+
+Constructs a \hyperlink{classCustomer_1_1Customer}{Customer} with the given name. 
+
+Initially there are no items rented and the balance is zero. 
+\begin{DoxyParams}{Parameters}
+{\em name} & the new customer\textquotesingle{}s name \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 33 of file Customer.\+py.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classCustomer_1_1Customer_aa12655d57338586f1ee2a5c101d44356}\label{classCustomer_1_1Customer_aa12655d57338586f1ee2a5c101d44356}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+str\+\_\+\+\_\+()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns a string representation of this customer. 
+
+The format consists of multiple lines. The first line is the patron\textquotesingle{}s name. Subsequent lines are formed from the {\bfseries str}() values of the items currently rented, separated by a newline. \begin{DoxyReturn}{Returns}
+representation of this object as a multi-\/line string 
+\end{DoxyReturn}
+
+
+Definition at line 110 of file Customer.\+py.
+
+
+
+References Customer.\+Customer.\+\_\+\+\_\+items\+Out, and Customer.\+Customer.\+\_\+\+\_\+name.
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_ac589f3f34db4ca44e3071e7260f5f8b6}\label{classCustomer_1_1Customer_ac589f3f34db4ca44e3071e7260f5f8b6}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!bring\+Back\+Item@{bring\+Back\+Item}}
+\index{bring\+Back\+Item@{bring\+Back\+Item}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{bring\+Back\+Item()}{bringBackItem()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+bring\+Back\+Item (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{barcode,  }\item[{}]{today }\end{DoxyParamCaption})}
+
+
+
+Returns an item that this customer currently has rented and updates the balance if a late fee or credit is due. 
+
+If the item can be successfully returned, this method updates the item\textquotesingle{}s status and removes it from this customer\textquotesingle{}s list of items. If the customer does not have the item rented, a \hyperlink{namespaceStatusException}{Status\+Exception} is thrown. 
+\begin{DoxyParams}{Parameters}
+{\em barcode} & identifier for the item to be returned \\
+\hline
+{\em today} & the date on which the item is being returned \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{namespaceStatusException}{Status\+Exception}} & if this customer does not have the given item rented \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 73 of file Customer.\+py.
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_ad2f1246cd764010c5701930f6576f5e0}\label{classCustomer_1_1Customer_ad2f1246cd764010c5701930f6576f5e0}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!can\+Rent@{can\+Rent}}
+\index{can\+Rent@{can\+Rent}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{can\+Rent()}{canRent()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+can\+Rent (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{today }\end{DoxyParamCaption})}
+
+
+
+Helper method determines whether this customer already has overdue items. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em today} & the current date \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if the customer has no overdue items, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 126 of file Customer.\+py.
+
+
+
+References Customer.\+Customer.\+\_\+\+\_\+items\+Out.
+
+
+
+Referenced by Customer.\+Customer.\+rent\+Item().
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_aebb56585524424bcededa48f90a2dde6}\label{classCustomer_1_1Customer_aebb56585524424bcededa48f90a2dde6}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!get\+Balance@{get\+Balance}}
+\index{get\+Balance@{get\+Balance}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{get\+Balance()}{getBalance()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+get\+Balance (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns the balance for this customer. 
+
+\begin{DoxyReturn}{Returns}
+this customer\textquotesingle{}s balance 
+\end{DoxyReturn}
+
+
+Definition at line 83 of file Customer.\+py.
+
+
+
+References Customer.\+Customer.\+\_\+\+\_\+balance.
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_a154e1dbfb02e85d29b52e620b6283677}\label{classCustomer_1_1Customer_a154e1dbfb02e85d29b52e620b6283677}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+get\+Name (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns the name of this customer. 
+
+\begin{DoxyReturn}{Returns}
+this customer\textquotesingle{}s name 
+\end{DoxyReturn}
+
+
+Definition at line 91 of file Customer.\+py.
+
+
+
+References Customer.\+Customer.\+\_\+\+\_\+name.
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_a87070bd1a552dd094365dc4464253a3a}\label{classCustomer_1_1Customer_a87070bd1a552dd094365dc4464253a3a}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!make\+Payment@{make\+Payment}}
+\index{make\+Payment@{make\+Payment}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{make\+Payment()}{makePayment()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+make\+Payment (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{amount }\end{DoxyParamCaption})}
+
+
+
+Makes a payment on this customer\textquotesingle{}s balance. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em amount} & the amount to be paid, in cents \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 99 of file Customer.\+py.
+
+
+
+References Customer.\+Customer.\+\_\+\+\_\+balance.
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_aeda8ba0748ed02a22582207d04d90d62}\label{classCustomer_1_1Customer_aeda8ba0748ed02a22582207d04d90d62}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!rent\+Item@{rent\+Item}}
+\index{rent\+Item@{rent\+Item}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{rent\+Item()}{rentItem()}}
+{\footnotesize\ttfamily def Customer.\+Customer.\+rent\+Item (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{item,  }\item[{}]{today }\end{DoxyParamCaption})}
+
+
+
+Rents an item and adds it to this customer\textquotesingle{}s list of items. 
+
+If the item can be rented, this method updates the item\textquotesingle{}s status (including the due date) and then adds it to this customer\textquotesingle{}s list of items. If the item cannot be rented to this customer, a \hyperlink{namespaceStatusException}{Status\+Exception} is thrown. 
+\begin{DoxyParams}{Parameters}
+{\em item} & the item to be rented \\
+\hline
+{\em today} & the date on which the item is being rented \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{namespaceStatusException}{Status\+Exception}} & if the item cannot be rented to this customer for any reason \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 53 of file Customer.\+py.
+
+
+
+References Customer.\+Customer.\+\_\+\+\_\+balance, Customer.\+Customer.\+\_\+\+\_\+items\+Out, and Customer.\+Customer.\+can\+Rent().
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classCustomer_1_1Customer_a3fe2716ffce15422d3bebc6989a1353d}\label{classCustomer_1_1Customer_a3fe2716ffce15422d3bebc6989a1353d}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!\+\_\+\+\_\+balance@{\+\_\+\+\_\+balance}}
+\index{\+\_\+\+\_\+balance@{\+\_\+\+\_\+balance}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+balance}{\_\_balance}}
+{\footnotesize\ttfamily Customer.\+Customer.\+\_\+\+\_\+balance\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Balance currently owed by this customer. 
+
+
+
+Definition at line 39 of file Customer.\+py.
+
+
+
+Referenced by Customer.\+Customer.\+get\+Balance(), Customer.\+Customer.\+make\+Payment(), and Customer.\+Customer.\+rent\+Item().
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_a573f55a71c994b6881a99fe055e9e1c2}\label{classCustomer_1_1Customer_a573f55a71c994b6881a99fe055e9e1c2}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!\+\_\+\+\_\+items\+Out@{\+\_\+\+\_\+items\+Out}}
+\index{\+\_\+\+\_\+items\+Out@{\+\_\+\+\_\+items\+Out}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+items\+Out}{\_\_itemsOut}}
+{\footnotesize\ttfamily Customer.\+Customer.\+\_\+\+\_\+items\+Out\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Items currently rented by this customer. 
+
+
+
+Definition at line 35 of file Customer.\+py.
+
+
+
+Referenced by Customer.\+Customer.\+\_\+\+\_\+str\+\_\+\+\_\+(), Customer.\+Customer.\+can\+Rent(), and Customer.\+Customer.\+rent\+Item().
+
+\mbox{\Hypertarget{classCustomer_1_1Customer_a400a0ef109352dbf3f843006f22e611f}\label{classCustomer_1_1Customer_a400a0ef109352dbf3f843006f22e611f}} 
+\index{Customer\+::\+Customer@{Customer\+::\+Customer}!\+\_\+\+\_\+name@{\+\_\+\+\_\+name}}
+\index{\+\_\+\+\_\+name@{\+\_\+\+\_\+name}!Customer\+::\+Customer@{Customer\+::\+Customer}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+name}{\_\_name}}
+{\footnotesize\ttfamily Customer.\+Customer.\+\_\+\+\_\+name\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Name of this customer. 
+
+
+
+Definition at line 37 of file Customer.\+py.
+
+
+
+Referenced by Customer.\+Customer.\+\_\+\+\_\+str\+\_\+\+\_\+(), and Customer.\+Customer.\+get\+Name().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Customer_8py}{Customer.\+py}\end{DoxyCompactItemize}

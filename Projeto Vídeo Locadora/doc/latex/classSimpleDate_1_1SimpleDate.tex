@@ -1,0 +1,201 @@
+\hypertarget{classSimpleDate_1_1SimpleDate}{}\section{Simple\+Date.\+Simple\+Date Class Reference}
+\label{classSimpleDate_1_1SimpleDate}\index{Simple\+Date.\+Simple\+Date@{Simple\+Date.\+Simple\+Date}}
+
+
+Date consisting of a year, month, and day.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classSimpleDate_1_1SimpleDate_a8e01278f5e3987e64396ef345ccb7dde}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self, year, month, day)
+\begin{DoxyCompactList}\small\item\em Constructs a \hyperlink{classSimpleDate_1_1SimpleDate}{Simple\+Date} with the given year, month, and day. \end{DoxyCompactList}\item 
+def \hyperlink{classSimpleDate_1_1SimpleDate_a84c11740813035133e89c4f55d35268d}{Simple\+Date\+From\+Days} (self, existing, additional\+Days)
+\begin{DoxyCompactList}\small\item\em Returns a \hyperlink{classSimpleDate_1_1SimpleDate}{Simple\+Date} that is a given number of days after an existing date. \end{DoxyCompactList}\item 
+def \hyperlink{classSimpleDate_1_1SimpleDate_a3f991d5bf914be8175808732a37296c4}{is\+Before} (self, other)
+\begin{DoxyCompactList}\small\item\em Determines whether this date is strictly earlier than the given date. \end{DoxyCompactList}\item 
+def \hyperlink{classSimpleDate_1_1SimpleDate_a9e6a7a4fa0751c99c28dc7130c849944}{days\+Until} (self, other)
+\begin{DoxyCompactList}\small\item\em Returns the number of days from this date until the given date. \end{DoxyCompactList}\item 
+def \hyperlink{classSimpleDate_1_1SimpleDate_ad33dd54a78befede77ffed77c85d6861}{\+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\begin{DoxyCompactList}\small\item\em Prints this simple\+Date in the format year-\/month-\/day. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Static Public Attributes}
+\begin{DoxyCompactItemize}
+\item 
+int \hyperlink{classSimpleDate_1_1SimpleDate_a0481c6d110c7475177a3e59aa89fb20b}{M\+I\+L\+L\+I\+S\+\_\+\+I\+N\+\_\+24\+\_\+\+H\+O\+U\+RS} = 1000 $\ast$ 60 $\ast$ 60 $\ast$ 24
+\begin{DoxyCompactList}\small\item\em Number of millisecons in one day. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSimpleDate_1_1SimpleDate_a0ae516370c49819c39e89606e163a875}{\+\_\+\+\_\+date}
+\begin{DoxyCompactList}\small\item\em Holds the date in this \hyperlink{classSimpleDate_1_1SimpleDate}{Simple\+Date} object. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+Date consisting of a year, month, and day. 
+
+Definition at line 16 of file Simple\+Date.\+py.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSimpleDate_1_1SimpleDate_a8e01278f5e3987e64396ef345ccb7dde}\label{classSimpleDate_1_1SimpleDate_a8e01278f5e3987e64396ef345ccb7dde}} 
+\index{Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Simple\+Date.\+Simple\+Date.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{year,  }\item[{}]{month,  }\item[{}]{day }\end{DoxyParamCaption})}
+
+
+
+Constructs a \hyperlink{classSimpleDate_1_1SimpleDate}{Simple\+Date} with the given year, month, and day. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em year} & four-\/digit year \\
+\hline
+{\em month} & 1-\/based month number \\
+\hline
+{\em day} & 1-\/based day of month \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 27 of file Simple\+Date.\+py.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSimpleDate_1_1SimpleDate_ad33dd54a78befede77ffed77c85d6861}\label{classSimpleDate_1_1SimpleDate_ad33dd54a78befede77ffed77c85d6861}} 
+\index{Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}!\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}!Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+str\+\_\+\+\_\+()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily def Simple\+Date.\+Simple\+Date.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Prints this simple\+Date in the format year-\/month-\/day. 
+
+
+
+Definition at line 66 of file Simple\+Date.\+py.
+
+
+
+References Simple\+Date.\+Simple\+Date.\+\_\+\+\_\+date.
+
+\mbox{\Hypertarget{classSimpleDate_1_1SimpleDate_a9e6a7a4fa0751c99c28dc7130c849944}\label{classSimpleDate_1_1SimpleDate_a9e6a7a4fa0751c99c28dc7130c849944}} 
+\index{Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}!days\+Until@{days\+Until}}
+\index{days\+Until@{days\+Until}!Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}}
+\subsubsection{\texorpdfstring{days\+Until()}{daysUntil()}}
+{\footnotesize\ttfamily def Simple\+Date.\+Simple\+Date.\+days\+Until (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{other }\end{DoxyParamCaption})}
+
+
+
+Returns the number of days from this date until the given date. 
+
+Returns a negative number if this date after the given date. 
+\begin{DoxyParams}{Parameters}
+{\em other} & the future date \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+number of days until the given date (negative if it is in the past) 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Simple\+Date.\+py.
+
+
+
+References Simple\+Date.\+Simple\+Date.\+\_\+\+\_\+date.
+
+
+
+Referenced by Simple\+Date.\+Simple\+Date.\+is\+Before().
+
+\mbox{\Hypertarget{classSimpleDate_1_1SimpleDate_a3f991d5bf914be8175808732a37296c4}\label{classSimpleDate_1_1SimpleDate_a3f991d5bf914be8175808732a37296c4}} 
+\index{Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}!is\+Before@{is\+Before}}
+\index{is\+Before@{is\+Before}!Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}}
+\subsubsection{\texorpdfstring{is\+Before()}{isBefore()}}
+{\footnotesize\ttfamily def Simple\+Date.\+Simple\+Date.\+is\+Before (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{other }\end{DoxyParamCaption})}
+
+
+
+Determines whether this date is strictly earlier than the given date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em other} & \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true if this date is strictly before the given date. false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file Simple\+Date.\+py.
+
+
+
+References Simple\+Date.\+Simple\+Date.\+days\+Until().
+
+\mbox{\Hypertarget{classSimpleDate_1_1SimpleDate_a84c11740813035133e89c4f55d35268d}\label{classSimpleDate_1_1SimpleDate_a84c11740813035133e89c4f55d35268d}} 
+\index{Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}!Simple\+Date\+From\+Days@{Simple\+Date\+From\+Days}}
+\index{Simple\+Date\+From\+Days@{Simple\+Date\+From\+Days}!Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}}
+\subsubsection{\texorpdfstring{Simple\+Date\+From\+Days()}{SimpleDateFromDays()}}
+{\footnotesize\ttfamily def Simple\+Date.\+Simple\+Date.\+Simple\+Date\+From\+Days (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{existing,  }\item[{}]{additional\+Days }\end{DoxyParamCaption})}
+
+
+
+Returns a \hyperlink{classSimpleDate_1_1SimpleDate}{Simple\+Date} that is a given number of days after an existing date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em existing} & the given \hyperlink{classSimpleDate_1_1SimpleDate}{Simple\+Date} \\
+\hline
+{\em additional\+Days} & the number of days to be added to the existing date \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 38 of file Simple\+Date.\+py.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classSimpleDate_1_1SimpleDate_a0ae516370c49819c39e89606e163a875}\label{classSimpleDate_1_1SimpleDate_a0ae516370c49819c39e89606e163a875}} 
+\index{Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}!\+\_\+\+\_\+date@{\+\_\+\+\_\+date}}
+\index{\+\_\+\+\_\+date@{\+\_\+\+\_\+date}!Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+date}{\_\_date}}
+{\footnotesize\ttfamily Simple\+Date.\+Simple\+Date.\+\_\+\+\_\+date\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+Holds the date in this \hyperlink{classSimpleDate_1_1SimpleDate}{Simple\+Date} object. 
+
+
+
+Definition at line 30 of file Simple\+Date.\+py.
+
+
+
+Referenced by Simple\+Date.\+Simple\+Date.\+\_\+\+\_\+str\+\_\+\+\_\+(), and Simple\+Date.\+Simple\+Date.\+days\+Until().
+
+\mbox{\Hypertarget{classSimpleDate_1_1SimpleDate_a0481c6d110c7475177a3e59aa89fb20b}\label{classSimpleDate_1_1SimpleDate_a0481c6d110c7475177a3e59aa89fb20b}} 
+\index{Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}!M\+I\+L\+L\+I\+S\+\_\+\+I\+N\+\_\+24\+\_\+\+H\+O\+U\+RS@{M\+I\+L\+L\+I\+S\+\_\+\+I\+N\+\_\+24\+\_\+\+H\+O\+U\+RS}}
+\index{M\+I\+L\+L\+I\+S\+\_\+\+I\+N\+\_\+24\+\_\+\+H\+O\+U\+RS@{M\+I\+L\+L\+I\+S\+\_\+\+I\+N\+\_\+24\+\_\+\+H\+O\+U\+RS}!Simple\+Date\+::\+Simple\+Date@{Simple\+Date\+::\+Simple\+Date}}
+\subsubsection{\texorpdfstring{M\+I\+L\+L\+I\+S\+\_\+\+I\+N\+\_\+24\+\_\+\+H\+O\+U\+RS}{MILLIS\_IN\_24\_HOURS}}
+{\footnotesize\ttfamily int Simple\+Date.\+Simple\+Date.\+M\+I\+L\+L\+I\+S\+\_\+\+I\+N\+\_\+24\+\_\+\+H\+O\+U\+RS = 1000 $\ast$ 60 $\ast$ 60 $\ast$ 24\hspace{0.3cm}{\ttfamily [static]}}
+
+
+
+Number of millisecons in one day. 
+
+
+
+Definition at line 19 of file Simple\+Date.\+py.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{SimpleDate_8py}{Simple\+Date.\+py}\end{DoxyCompactItemize}

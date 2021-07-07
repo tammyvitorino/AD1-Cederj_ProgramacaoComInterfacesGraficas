@@ -1,0 +1,50 @@
+.TH "SearchCondition.SearchCondition" 3 "Fri Jul 14 2017" "Version 1.0" "Video_Store" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SearchCondition.SearchCondition \- Abstraction of a search predicate for items\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherited by \fBGenreSearch\&.GenreSearch\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBmatches\fP (self, item)"
+.br
+.RI "Determine whether the given item matches this search condition's criteria for inclusion\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Abstraction of a search predicate for items\&. 
+
+Subtypes can customize the nature of the search (e\&.g\&., exact title, title keywords, genre, etc\&.)\&. 
+.PP
+Definition at line 16 of file SearchCondition\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def SearchCondition\&.SearchCondition\&.matches ( self,  item)"
+
+.PP
+Determine whether the given item matches this search condition's criteria for inclusion\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIitem\fP the item to be checked 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if the item matches this condition's criteria, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 24 of file SearchCondition\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Video_Store from the source code\&.

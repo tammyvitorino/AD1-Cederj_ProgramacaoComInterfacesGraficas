@@ -1,0 +1,171 @@
+.TH "VideoStore.VideoStore" 3 "Fri Jul 14 2017" "Version 1.0" "Video_Store" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+VideoStore.VideoStore \- \fBVideoStore\fP consists of a list of items and a list of customers who can rent items\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__init__\fP (self)"
+.br
+.RI "Constructs a \fBVideoStore\fP that initially has no items and no customers\&. "
+.ti -1c
+.RI "def \fBaddItem\fP (self, item)"
+.br
+.RI "Adds an item to this store's list of items, provided that there is not already an item with the same barcode\&. "
+.ti -1c
+.RI "def \fBaddCustomer\fP (self, customer)"
+.br
+.RI "Adds a customer to this store's list of customers\&. "
+.ti -1c
+.RI "def \fBfindUser\fP (self, name)"
+.br
+.RI "Returns the customer with the given name\&. "
+.ti -1c
+.RI "def \fBsearch\fP (self, condition)"
+.br
+.RI "Search the store's collection of for items satisfying the given \fBSearchCondition\fP\&. "
+.ti -1c
+.RI "def \fB__str__\fP (self)"
+.br
+.RI "Returns the set of users and items in this store\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB__items\fP"
+.br
+.RI "The items in this store\&. "
+.ti -1c
+.RI "\fB__customers\fP"
+.br
+.RI "The list of customers of this store\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+\fBVideoStore\fP consists of a list of items and a list of customers who can rent items\&. 
+.PP
+Definition at line 20 of file VideoStore\&.py\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "def VideoStore\&.VideoStore\&.__init__ ( self)"
+
+.PP
+Constructs a \fBVideoStore\fP that initially has no items and no customers\&. 
+.PP
+Definition at line 25 of file VideoStore\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def VideoStore\&.VideoStore\&.__str__ ( self)"
+
+.PP
+Returns the set of users and items in this store\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+a string with all users and items\&. 
+.RE
+.PP
+
+.PP
+Definition at line 81 of file VideoStore\&.py\&.
+.PP
+References VideoStore\&.VideoStore\&.__customers, and VideoStore\&.VideoStore\&.__items\&.
+.SS "def VideoStore\&.VideoStore\&.addCustomer ( self,  customer)"
+
+.PP
+Adds a customer to this store's list of customers\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcustomer\fP the customer to be added 
+.RE
+.PP
+
+.PP
+Definition at line 45 of file VideoStore\&.py\&.
+.PP
+References VideoStore\&.VideoStore\&.__customers\&.
+.SS "def VideoStore\&.VideoStore\&.addItem ( self,  item)"
+
+.PP
+Adds an item to this store's list of items, provided that there is not already an item with the same barcode\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIitem\fP the item to be added 
+.RE
+.PP
+
+.PP
+Definition at line 37 of file VideoStore\&.py\&.
+.PP
+References VideoStore\&.VideoStore\&.__items\&.
+.SS "def VideoStore\&.VideoStore\&.findUser ( self,  name)"
+
+.PP
+Returns the customer with the given name\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP the name of the customer to search for 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the customer 
+.RE
+.PP
+
+.PP
+Definition at line 55 of file VideoStore\&.py\&.
+.PP
+References VideoStore\&.VideoStore\&.__customers\&.
+.SS "def VideoStore\&.VideoStore\&.search ( self,  condition)"
+
+.PP
+Search the store's collection of for items satisfying the given \fBSearchCondition\fP\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIcondition\fP the \fBSearchCondition\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+list of items satisfying the condition 
+.RE
+.PP
+
+.PP
+Definition at line 69 of file VideoStore\&.py\&.
+.PP
+References VideoStore\&.VideoStore\&.__items\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "VideoStore\&.VideoStore\&.__customers\fC [private]\fP"
+
+.PP
+The list of customers of this store\&. 
+.PP
+Definition at line 29 of file VideoStore\&.py\&.
+.PP
+Referenced by VideoStore\&.VideoStore\&.__str__(), VideoStore\&.VideoStore\&.addCustomer(), and VideoStore\&.VideoStore\&.findUser()\&.
+.SS "VideoStore\&.VideoStore\&.__items\fC [private]\fP"
+
+.PP
+The items in this store\&. 
+.PP
+Definition at line 27 of file VideoStore\&.py\&.
+.PP
+Referenced by VideoStore\&.VideoStore\&.__str__(), VideoStore\&.VideoStore\&.addItem(), and VideoStore\&.VideoStore\&.search()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Video_Store from the source code\&.

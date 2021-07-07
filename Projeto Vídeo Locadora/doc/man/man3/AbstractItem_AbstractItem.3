@@ -1,0 +1,241 @@
+.TH "AbstractItem.AbstractItem" 3 "Fri Jul 14 2017" "Version 1.0" "Video_Store" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+AbstractItem.AbstractItem \- Partial implementation of the \fBItem\fP interface\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBItem\&.Item\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__init__\fP (self, title, genre, barcode)"
+.br
+.RI "Constructs a new \fBItem\fP with the given title, genre, and barcode\&. "
+.ti -1c
+.RI "def \fBisRented\fP (self)"
+.br
+.RI "Returns whether this item is rented\&. "
+.ti -1c
+.RI "def \fBgetDueDate\fP (self)"
+.br
+.RI "Returns this item due date\&. "
+.ti -1c
+.RI "def \fBgetTitle\fP (self)"
+.br
+.RI "Returns this item title\&. "
+.ti -1c
+.RI "def \fBgetBarcode\fP (self)"
+.br
+.RI "Returns this item barcode\&. "
+.ti -1c
+.RI "def \fB__str__\fP (self)"
+.br
+.RI "Returns a representation of the state of this object as a multiline string\&. "
+.ti -1c
+.RI "def \fB__eq__\fP (self, obj)"
+.br
+.RI "Determines whether this item is the same as another one based on its barcode\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB__title\fP"
+.br
+.RI "Title of this item\&. "
+.ti -1c
+.RI "\fB__genre\fP"
+.br
+.RI "Genre of this item\&. "
+.ti -1c
+.RI "\fB__barcode\fP"
+.br
+.RI "Unique Barcode for this item\&. "
+.ti -1c
+.RI "\fB__rented\fP"
+.br
+.RI "Rental status of this item\&. "
+.ti -1c
+.RI "\fB__dueDate\fP"
+.br
+.RI "Due date for this item\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Partial implementation of the \fBItem\fP interface\&. 
+.PP
+Definition at line 16 of file AbstractItem\&.py\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "def AbstractItem\&.AbstractItem\&.__init__ ( self,  title,  genre,  barcode)"
+
+.PP
+Constructs a new \fBItem\fP with the given title, genre, and barcode\&. This constructor may only be invoked by subclasses\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItitle\fP the title of the item 
+.br
+\fIgenre\fP the genre of the item 
+.br
+\fIbarcode\fP a unique integer identifier for the item 
+.RE
+.PP
+
+.PP
+Definition at line 25 of file AbstractItem\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def AbstractItem\&.AbstractItem\&.__eq__ ( self,  obj)"
+
+.PP
+Determines whether this item is the same as another one based on its barcode\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIobj\fP the object to compare to this item 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if the given object is an \fBAbstractItem\fP with the same barcode as this one 
+.RE
+.PP
+
+.PP
+Definition at line 95 of file AbstractItem\&.py\&.
+.PP
+References AbstractItem\&.AbstractItem\&.getBarcode()\&.
+.SS "def AbstractItem\&.AbstractItem\&.__str__ ( self)"
+
+.PP
+Returns a representation of the state of this object as a multiline string\&. The format is: 
+.PP
+.nf
+
+    type
+    title
+    (genre)
+    status
+  
+.fi
+.PP
+ The status is either 
+.PP
+.nf
+
+    Rented: yyyy-mm-dd
+  
+.fi
+.PP
+ or 
+.PP
+.nf
+
+    Available
+  
+.fi
+.PP
+ where 'yyyy-mm-dd' is the current due date\&.
+.PP
+\fBReturns:\fP
+.RS 4
+a string representation of this object 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file AbstractItem\&.py\&.
+.PP
+References AbstractItem\&.AbstractItem\&.getDueDate(), Item\&.Item\&.getGenre(), AbstractItem\&.AbstractItem\&.getTitle(), and AbstractItem\&.AbstractItem\&.isRented()\&.
+.SS "def AbstractItem\&.AbstractItem\&.getBarcode ( self)"
+
+.PP
+Returns this item barcode\&. 
+.PP
+Definition at line 52 of file AbstractItem\&.py\&.
+.PP
+References AbstractItem\&.AbstractItem\&.__barcode\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.__eq__()\&.
+.SS "def AbstractItem\&.AbstractItem\&.getDueDate ( self)"
+
+.PP
+Returns this item due date\&. 
+.PP
+Definition at line 42 of file AbstractItem\&.py\&.
+.PP
+References AbstractItem\&.AbstractItem\&.__dueDate\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.__str__()\&.
+.SS "def AbstractItem\&.AbstractItem\&.getTitle ( self)"
+
+.PP
+Returns this item title\&. 
+.PP
+Definition at line 48 of file AbstractItem\&.py\&.
+.PP
+References AbstractItem\&.AbstractItem\&.__title\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.__str__()\&.
+.SS "def AbstractItem\&.AbstractItem\&.isRented ( self)"
+
+.PP
+Returns whether this item is rented\&. 
+.PP
+Definition at line 38 of file AbstractItem\&.py\&.
+.PP
+References AbstractItem\&.AbstractItem\&.__rented\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.__str__()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "AbstractItem\&.AbstractItem\&.__barcode\fC [private]\fP"
+
+.PP
+Unique Barcode for this item\&. 
+.PP
+Definition at line 31 of file AbstractItem\&.py\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.getBarcode()\&.
+.SS "AbstractItem\&.AbstractItem\&.__dueDate\fC [private]\fP"
+
+.PP
+Due date for this item\&. 
+.PP
+Definition at line 35 of file AbstractItem\&.py\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.getDueDate()\&.
+.SS "AbstractItem\&.AbstractItem\&.__genre\fC [private]\fP"
+
+.PP
+Genre of this item\&. 
+.PP
+Definition at line 29 of file AbstractItem\&.py\&.
+.PP
+Referenced by GenreSearch\&.GenreSearch\&.matches()\&.
+.SS "AbstractItem\&.AbstractItem\&.__rented\fC [private]\fP"
+
+.PP
+Rental status of this item\&. 
+.PP
+Definition at line 33 of file AbstractItem\&.py\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.isRented()\&.
+.SS "AbstractItem\&.AbstractItem\&.__title\fC [private]\fP"
+
+.PP
+Title of this item\&. 
+.PP
+Definition at line 27 of file AbstractItem\&.py\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.getTitle()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Video_Store from the source code\&.

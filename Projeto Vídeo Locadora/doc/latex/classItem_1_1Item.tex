@@ -1,0 +1,241 @@
+\hypertarget{classItem_1_1Item}{}\section{Item.\+Item Class Reference}
+\label{classItem_1_1Item}\index{Item.\+Item@{Item.\+Item}}
+
+
+This is an abstract class.  
+
+
+
+
+Inheritance diagram for Item.\+Item\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=212pt]{classItem_1_1Item__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Item.\+Item\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=138pt]{classItem_1_1Item__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classItem_1_1Item_a866dd05fa3e3ab124f6afeaa171ab516}{set\+Rented} (self, today)
+\begin{DoxyCompactList}\small\item\em Rents this item if it is not already rented and sets the due date. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_afc0dccd77c3d32664c5a424886d7d53c}{set\+Returned} (self, today)
+\begin{DoxyCompactList}\small\item\em Returns this item, if it is currently rented. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_afe4448d1a099b956ecc0fc66ca22925d}{get\+Rental\+Cost} (self)
+\begin{DoxyCompactList}\small\item\em Returns the cost to rent this item. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_a17d1bdd2d1f6d4ad81a9d1fd0b2d149d}{calculate\+Late\+Fee} (self, today)
+\begin{DoxyCompactList}\small\item\em Calculates the late fee (or bonus) that would be charged (or applied) for returning the item on the given date. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_a4f815eee80b9dffbbc0be9d79a0520ff}{get\+Genre} (self)
+\begin{DoxyCompactList}\small\item\em Returns a String representing the genre of this item. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_a2dcb80d5765c07aefe735cd657385764}{is\+Rented} (self)
+\begin{DoxyCompactList}\small\item\em Determines whether this item is currently rented. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_a14c6c86e71412609102c9fb0cd009751}{get\+Due\+Date} (self)
+\begin{DoxyCompactList}\small\item\em Returns the due date for this item if it is currently rented, or null if the item is not rented. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_a2b359025258f0b0f0ef33d7da4f806fa}{get\+Title} (self)
+\begin{DoxyCompactList}\small\item\em Returns the title of this item. \end{DoxyCompactList}\item 
+def \hyperlink{classItem_1_1Item_ac53c971f8932eb428ee5a9999ba8c541}{get\+Barcode} (self)
+\begin{DoxyCompactList}\small\item\em Returns the integer barcode for this item. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+This is an abstract class. 
+
+All methods here must be implemented elsewhere.
+
+An item represents a movie or game that can be rented from a video store. Each item has a title, a genre, and a unique integer identifier called a barcode. An item can be rented or available, and if rented it has a due date. 
+
+Definition at line 21 of file Item.\+py.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classItem_1_1Item_a17d1bdd2d1f6d4ad81a9d1fd0b2d149d}\label{classItem_1_1Item_a17d1bdd2d1f6d4ad81a9d1fd0b2d149d}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!calculate\+Late\+Fee@{calculate\+Late\+Fee}}
+\index{calculate\+Late\+Fee@{calculate\+Late\+Fee}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{calculate\+Late\+Fee()}{calculateLateFee()}}
+{\footnotesize\ttfamily def Item.\+Item.\+calculate\+Late\+Fee (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{today }\end{DoxyParamCaption})}
+
+
+
+Calculates the late fee (or bonus) that would be charged (or applied) for returning the item on the given date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em today} & the date on which the item is being returned \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the late fee or bonus for returning the item on the given date, or zero if the item is not currently rented 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Item.\+py.
+
+\mbox{\Hypertarget{classItem_1_1Item_ac53c971f8932eb428ee5a9999ba8c541}\label{classItem_1_1Item_ac53c971f8932eb428ee5a9999ba8c541}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!get\+Barcode@{get\+Barcode}}
+\index{get\+Barcode@{get\+Barcode}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{get\+Barcode()}{getBarcode()}}
+{\footnotesize\ttfamily def Item.\+Item.\+get\+Barcode (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns the integer barcode for this item. 
+
+\begin{DoxyReturn}{Returns}
+barcode of this item 
+\end{DoxyReturn}
+
+
+Definition at line 101 of file Item.\+py.
+
+\mbox{\Hypertarget{classItem_1_1Item_a14c6c86e71412609102c9fb0cd009751}\label{classItem_1_1Item_a14c6c86e71412609102c9fb0cd009751}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!get\+Due\+Date@{get\+Due\+Date}}
+\index{get\+Due\+Date@{get\+Due\+Date}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{get\+Due\+Date()}{getDueDate()}}
+{\footnotesize\ttfamily def Item.\+Item.\+get\+Due\+Date (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns the due date for this item if it is currently rented, or null if the item is not rented. 
+
+\begin{DoxyReturn}{Returns}
+due date for this item 
+\end{DoxyReturn}
+
+
+Definition at line 85 of file Item.\+py.
+
+\mbox{\Hypertarget{classItem_1_1Item_a4f815eee80b9dffbbc0be9d79a0520ff}\label{classItem_1_1Item_a4f815eee80b9dffbbc0be9d79a0520ff}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!get\+Genre@{get\+Genre}}
+\index{get\+Genre@{get\+Genre}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{get\+Genre()}{getGenre()}}
+{\footnotesize\ttfamily def Item.\+Item.\+get\+Genre (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns a String representing the genre of this item. 
+
+\begin{DoxyReturn}{Returns}
+genre of this item 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file Item.\+py.
+
+
+
+Referenced by Abstract\+Item.\+Abstract\+Item.\+\_\+\+\_\+str\+\_\+\+\_\+().
+
+\mbox{\Hypertarget{classItem_1_1Item_afe4448d1a099b956ecc0fc66ca22925d}\label{classItem_1_1Item_afe4448d1a099b956ecc0fc66ca22925d}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!get\+Rental\+Cost@{get\+Rental\+Cost}}
+\index{get\+Rental\+Cost@{get\+Rental\+Cost}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{get\+Rental\+Cost()}{getRentalCost()}}
+{\footnotesize\ttfamily def Item.\+Item.\+get\+Rental\+Cost (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns the cost to rent this item. 
+
+\begin{DoxyReturn}{Returns}
+cost to rent the item 
+\end{DoxyReturn}
+
+
+Definition at line 48 of file Item.\+py.
+
+\mbox{\Hypertarget{classItem_1_1Item_a2b359025258f0b0f0ef33d7da4f806fa}\label{classItem_1_1Item_a2b359025258f0b0f0ef33d7da4f806fa}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!get\+Title@{get\+Title}}
+\index{get\+Title@{get\+Title}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{get\+Title()}{getTitle()}}
+{\footnotesize\ttfamily def Item.\+Item.\+get\+Title (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns the title of this item. 
+
+\begin{DoxyReturn}{Returns}
+title of this item 
+\end{DoxyReturn}
+
+
+Definition at line 93 of file Item.\+py.
+
+\mbox{\Hypertarget{classItem_1_1Item_a2dcb80d5765c07aefe735cd657385764}\label{classItem_1_1Item_a2dcb80d5765c07aefe735cd657385764}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!is\+Rented@{is\+Rented}}
+\index{is\+Rented@{is\+Rented}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{is\+Rented()}{isRented()}}
+{\footnotesize\ttfamily def Item.\+Item.\+is\+Rented (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Determines whether this item is currently rented. 
+
+\begin{DoxyReturn}{Returns}
+true if this item is rented, false otherwise 
+\end{DoxyReturn}
+
+
+Definition at line 76 of file Item.\+py.
+
+\mbox{\Hypertarget{classItem_1_1Item_a866dd05fa3e3ab124f6afeaa171ab516}\label{classItem_1_1Item_a866dd05fa3e3ab124f6afeaa171ab516}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!set\+Rented@{set\+Rented}}
+\index{set\+Rented@{set\+Rented}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{set\+Rented()}{setRented()}}
+{\footnotesize\ttfamily def Item.\+Item.\+set\+Rented (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{today }\end{DoxyParamCaption})}
+
+
+
+Rents this item if it is not already rented and sets the due date. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em today} & the date on which this item is being rented \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{namespaceStatusException}{Status\+Exception}} & if the item cannot be rented \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 30 of file Item.\+py.
+
+\mbox{\Hypertarget{classItem_1_1Item_afc0dccd77c3d32664c5a424886d7d53c}\label{classItem_1_1Item_afc0dccd77c3d32664c5a424886d7d53c}} 
+\index{Item\+::\+Item@{Item\+::\+Item}!set\+Returned@{set\+Returned}}
+\index{set\+Returned@{set\+Returned}!Item\+::\+Item@{Item\+::\+Item}}
+\subsubsection{\texorpdfstring{set\+Returned()}{setReturned()}}
+{\footnotesize\ttfamily def Item.\+Item.\+set\+Returned (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{today }\end{DoxyParamCaption})}
+
+
+
+Returns this item, if it is currently rented. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em today} & the date on which the item is being returned \\
+\hline
+\end{DoxyParams}
+
+\begin{DoxyExceptions}{Exceptions}
+{\em \hyperlink{namespaceStatusException}{Status\+Exception}} & if the item is not currently rented \\
+\hline
+\end{DoxyExceptions}
+
+
+Definition at line 40 of file Item.\+py.
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{Item_8py}{Item.\+py}\end{DoxyCompactItemize}

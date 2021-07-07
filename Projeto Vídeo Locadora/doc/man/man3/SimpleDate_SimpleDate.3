@@ -1,0 +1,160 @@
+.TH "SimpleDate.SimpleDate" 3 "Fri Jul 14 2017" "Version 1.0" "Video_Store" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+SimpleDate.SimpleDate \- Date consisting of a year, month, and day\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__init__\fP (self, year, month, day)"
+.br
+.RI "Constructs a \fBSimpleDate\fP with the given year, month, and day\&. "
+.ti -1c
+.RI "def \fBSimpleDateFromDays\fP (self, existing, additionalDays)"
+.br
+.RI "Returns a \fBSimpleDate\fP that is a given number of days after an existing date\&. "
+.ti -1c
+.RI "def \fBisBefore\fP (self, other)"
+.br
+.RI "Determines whether this date is strictly earlier than the given date\&. "
+.ti -1c
+.RI "def \fBdaysUntil\fP (self, other)"
+.br
+.RI "Returns the number of days from this date until the given date\&. "
+.ti -1c
+.RI "def \fB__str__\fP (self)"
+.br
+.RI "Prints this simpleDate in the format year-month-day\&. "
+.in -1c
+.SS "Static Public Attributes"
+
+.in +1c
+.ti -1c
+.RI "int \fBMILLIS_IN_24_HOURS\fP = 1000 * 60 * 60 * 24"
+.br
+.RI "Number of millisecons in one day\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB__date\fP"
+.br
+.RI "Holds the date in this \fBSimpleDate\fP object\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Date consisting of a year, month, and day\&. 
+.PP
+Definition at line 16 of file SimpleDate\&.py\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "def SimpleDate\&.SimpleDate\&.__init__ ( self,  year,  month,  day)"
+
+.PP
+Constructs a \fBSimpleDate\fP with the given year, month, and day\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIyear\fP four-digit year 
+.br
+\fImonth\fP 1-based month number 
+.br
+\fIday\fP 1-based day of month 
+.RE
+.PP
+
+.PP
+Definition at line 27 of file SimpleDate\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def SimpleDate\&.SimpleDate\&.__str__ ( self)"
+
+.PP
+Prints this simpleDate in the format year-month-day\&. 
+.PP
+Definition at line 66 of file SimpleDate\&.py\&.
+.PP
+References SimpleDate\&.SimpleDate\&.__date\&.
+.SS "def SimpleDate\&.SimpleDate\&.daysUntil ( self,  other)"
+
+.PP
+Returns the number of days from this date until the given date\&. Returns a negative number if this date after the given date\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIother\fP the future date 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+number of days until the given date (negative if it is in the past) 
+.RE
+.PP
+
+.PP
+Definition at line 60 of file SimpleDate\&.py\&.
+.PP
+References SimpleDate\&.SimpleDate\&.__date\&.
+.PP
+Referenced by SimpleDate\&.SimpleDate\&.isBefore()\&.
+.SS "def SimpleDate\&.SimpleDate\&.isBefore ( self,  other)"
+
+.PP
+Determines whether this date is strictly earlier than the given date\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIother\fP 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if this date is strictly before the given date\&. false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 51 of file SimpleDate\&.py\&.
+.PP
+References SimpleDate\&.SimpleDate\&.daysUntil()\&.
+.SS "def SimpleDate\&.SimpleDate\&.SimpleDateFromDays ( self,  existing,  additionalDays)"
+
+.PP
+Returns a \fBSimpleDate\fP that is a given number of days after an existing date\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIexisting\fP the given \fBSimpleDate\fP 
+.br
+\fIadditionalDays\fP the number of days to be added to the existing date 
+.RE
+.PP
+
+.PP
+Definition at line 38 of file SimpleDate\&.py\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "SimpleDate\&.SimpleDate\&.__date\fC [private]\fP"
+
+.PP
+Holds the date in this \fBSimpleDate\fP object\&. 
+.PP
+Definition at line 30 of file SimpleDate\&.py\&.
+.PP
+Referenced by SimpleDate\&.SimpleDate\&.__str__(), and SimpleDate\&.SimpleDate\&.daysUntil()\&.
+.SS "int SimpleDate\&.SimpleDate\&.MILLIS_IN_24_HOURS = 1000 * 60 * 60 * 24\fC [static]\fP"
+
+.PP
+Number of millisecons in one day\&. 
+.PP
+Definition at line 19 of file SimpleDate\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Video_Store from the source code\&.

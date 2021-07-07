@@ -1,0 +1,202 @@
+.TH "Item.Item" 3 "Fri Jul 14 2017" "Version 1.0" "Video_Store" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Item.Item \- This is an abstract class\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits object\&.
+.PP
+Inherited by \fBAbstractItem\&.AbstractItem\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fBsetRented\fP (self, today)"
+.br
+.RI "Rents this item if it is not already rented and sets the due date\&. "
+.ti -1c
+.RI "def \fBsetReturned\fP (self, today)"
+.br
+.RI "Returns this item, if it is currently rented\&. "
+.ti -1c
+.RI "def \fBgetRentalCost\fP (self)"
+.br
+.RI "Returns the cost to rent this item\&. "
+.ti -1c
+.RI "def \fBcalculateLateFee\fP (self, today)"
+.br
+.RI "Calculates the late fee (or bonus) that would be charged (or applied) for returning the item on the given date\&. "
+.ti -1c
+.RI "def \fBgetGenre\fP (self)"
+.br
+.RI "Returns a String representing the genre of this item\&. "
+.ti -1c
+.RI "def \fBisRented\fP (self)"
+.br
+.RI "Determines whether this item is currently rented\&. "
+.ti -1c
+.RI "def \fBgetDueDate\fP (self)"
+.br
+.RI "Returns the due date for this item if it is currently rented, or null if the item is not rented\&. "
+.ti -1c
+.RI "def \fBgetTitle\fP (self)"
+.br
+.RI "Returns the title of this item\&. "
+.ti -1c
+.RI "def \fBgetBarcode\fP (self)"
+.br
+.RI "Returns the integer barcode for this item\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+This is an abstract class\&. 
+
+All methods here must be implemented elsewhere\&.
+.PP
+An item represents a movie or game that can be rented from a video store\&. Each item has a title, a genre, and a unique integer identifier called a barcode\&. An item can be rented or available, and if rented it has a due date\&. 
+.PP
+Definition at line 21 of file Item\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def Item\&.Item\&.calculateLateFee ( self,  today)"
+
+.PP
+Calculates the late fee (or bonus) that would be charged (or applied) for returning the item on the given date\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItoday\fP the date on which the item is being returned 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+the late fee or bonus for returning the item on the given date, or zero if the item is not currently rented 
+.RE
+.PP
+
+.PP
+Definition at line 60 of file Item\&.py\&.
+.SS "def Item\&.Item\&.getBarcode ( self)"
+
+.PP
+Returns the integer barcode for this item\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+barcode of this item 
+.RE
+.PP
+
+.PP
+Definition at line 101 of file Item\&.py\&.
+.SS "def Item\&.Item\&.getDueDate ( self)"
+
+.PP
+Returns the due date for this item if it is currently rented, or null if the item is not rented\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+due date for this item 
+.RE
+.PP
+
+.PP
+Definition at line 85 of file Item\&.py\&.
+.SS "def Item\&.Item\&.getGenre ( self)"
+
+.PP
+Returns a String representing the genre of this item\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+genre of this item 
+.RE
+.PP
+
+.PP
+Definition at line 68 of file Item\&.py\&.
+.PP
+Referenced by AbstractItem\&.AbstractItem\&.__str__()\&.
+.SS "def Item\&.Item\&.getRentalCost ( self)"
+
+.PP
+Returns the cost to rent this item\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+cost to rent the item 
+.RE
+.PP
+
+.PP
+Definition at line 48 of file Item\&.py\&.
+.SS "def Item\&.Item\&.getTitle ( self)"
+
+.PP
+Returns the title of this item\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+title of this item 
+.RE
+.PP
+
+.PP
+Definition at line 93 of file Item\&.py\&.
+.SS "def Item\&.Item\&.isRented ( self)"
+
+.PP
+Determines whether this item is currently rented\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+true if this item is rented, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 76 of file Item\&.py\&.
+.SS "def Item\&.Item\&.setRented ( self,  today)"
+
+.PP
+Rents this item if it is not already rented and sets the due date\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItoday\fP the date on which this item is being rented 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBStatusException\fP\fP if the item cannot be rented 
+.RE
+.PP
+
+.PP
+Definition at line 30 of file Item\&.py\&.
+.SS "def Item\&.Item\&.setReturned ( self,  today)"
+
+.PP
+Returns this item, if it is currently rented\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItoday\fP the date on which the item is being returned 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBStatusException\fP\fP if the item is not currently rented 
+.RE
+.PP
+
+.PP
+Definition at line 40 of file Item\&.py\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Video_Store from the source code\&.

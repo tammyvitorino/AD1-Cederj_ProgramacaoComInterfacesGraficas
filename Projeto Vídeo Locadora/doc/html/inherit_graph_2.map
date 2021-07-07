@@ -1,0 +1,4 @@
+<map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
+<area shape="rect" id="node1" href="$classSearchCondition_1_1SearchCondition.html" title="Abstraction of a search predicate for items. " alt="" coords="6,5,229,32"/>
+<area shape="rect" id="node2" href="$classGenreSearch_1_1GenreSearch.html" title="Implementation of SearchCondition that matches items based on the genre (not case sensitive)..." alt="" coords="277,5,461,32"/>
+</map>

@@ -1,0 +1,82 @@
+.TH "GenreSearch.GenreSearch" 3 "Fri Jul 14 2017" "Version 1.0" "Video_Store" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+GenreSearch.GenreSearch \- Implementation of \fBSearchCondition\fP that matches items based on the genre (not case sensitive)\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Inherits \fBSearchCondition\&.SearchCondition\fP\&.
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__init__\fP (self, genre)"
+.br
+.RI "Constructs a \fBGenreSearch\fP for the given value\&. "
+.ti -1c
+.RI "def \fBmatches\fP (self, item)"
+.br
+.RI "Matches this genre with the genre of a given item\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB__genre\fP"
+.br
+.RI "The genre we are searching for\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+Implementation of \fBSearchCondition\fP that matches items based on the genre (not case sensitive)\&. 
+.PP
+Definition at line 17 of file GenreSearch\&.py\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "def GenreSearch\&.GenreSearch\&.__init__ ( self,  genre)"
+
+.PP
+Constructs a \fBGenreSearch\fP for the given value\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIgenre\fP the genre to search for 
+.RE
+.PP
+
+.PP
+Definition at line 24 of file GenreSearch\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def GenreSearch\&.GenreSearch\&.matches ( self,  item)"
+
+.PP
+Matches this genre with the genre of a given item\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIitem\fP containing the genre to compare to\&. 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file GenreSearch\&.py\&.
+.PP
+References GenreSearch\&.GenreSearch\&.__genre, and AbstractItem\&.AbstractItem\&.__genre\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "GenreSearch\&.GenreSearch\&.__genre\fC [private]\fP"
+
+.PP
+The genre we are searching for\&. 
+.PP
+Definition at line 26 of file GenreSearch\&.py\&.
+.PP
+Referenced by GenreSearch\&.GenreSearch\&.matches()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Video_Store from the source code\&.

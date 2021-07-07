@@ -1,0 +1,219 @@
+\hypertarget{classVideoStore_1_1VideoStore}{}\section{Video\+Store.\+Video\+Store Class Reference}
+\label{classVideoStore_1_1VideoStore}\index{Video\+Store.\+Video\+Store@{Video\+Store.\+Video\+Store}}
+
+
+\hyperlink{classVideoStore_1_1VideoStore}{Video\+Store} consists of a list of items and a list of customers who can rent items.  
+
+
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+def \hyperlink{classVideoStore_1_1VideoStore_ae5c993cbfde1d6a6b872471dd8113184}{\+\_\+\+\_\+init\+\_\+\+\_\+} (self)
+\begin{DoxyCompactList}\small\item\em Constructs a \hyperlink{classVideoStore_1_1VideoStore}{Video\+Store} that initially has no items and no customers. \end{DoxyCompactList}\item 
+def \hyperlink{classVideoStore_1_1VideoStore_ad34e486af714a9513bff371d77b5dbbf}{add\+Item} (self, item)
+\begin{DoxyCompactList}\small\item\em Adds an item to this store\textquotesingle{}s list of items, provided that there is not already an item with the same barcode. \end{DoxyCompactList}\item 
+def \hyperlink{classVideoStore_1_1VideoStore_a9580d5be76ce527ceef595dc600ff92c}{add\+Customer} (self, customer)
+\begin{DoxyCompactList}\small\item\em Adds a customer to this store\textquotesingle{}s list of customers. \end{DoxyCompactList}\item 
+def \hyperlink{classVideoStore_1_1VideoStore_a864a5c88322cc7fe8d469963af6fbb74}{find\+User} (self, name)
+\begin{DoxyCompactList}\small\item\em Returns the customer with the given name. \end{DoxyCompactList}\item 
+def \hyperlink{classVideoStore_1_1VideoStore_a29c4c5fb82ee840192af398692d41cf3}{search} (self, condition)
+\begin{DoxyCompactList}\small\item\em Search the store\textquotesingle{}s collection of for items satisfying the given \hyperlink{namespaceSearchCondition}{Search\+Condition}. \end{DoxyCompactList}\item 
+def \hyperlink{classVideoStore_1_1VideoStore_a3c4bdb8e1df76ed65d00fdb32da18a3c}{\+\_\+\+\_\+str\+\_\+\+\_\+} (self)
+\begin{DoxyCompactList}\small\item\em Returns the set of users and items in this store. \end{DoxyCompactList}\end{DoxyCompactItemize}
+\subsection*{Private Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classVideoStore_1_1VideoStore_a9b95fd49486fc2730c11920059fa1786}{\+\_\+\+\_\+items}
+\begin{DoxyCompactList}\small\item\em The items in this store. \end{DoxyCompactList}\item 
+\hyperlink{classVideoStore_1_1VideoStore_ab8f773ef96cc4f8aca5b845d9c32da0e}{\+\_\+\+\_\+customers}
+\begin{DoxyCompactList}\small\item\em The list of customers of this store. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+\hyperlink{classVideoStore_1_1VideoStore}{Video\+Store} consists of a list of items and a list of customers who can rent items. 
+
+Definition at line 20 of file Video\+Store.\+py.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_ae5c993cbfde1d6a6b872471dd8113184}\label{classVideoStore_1_1VideoStore_ae5c993cbfde1d6a6b872471dd8113184}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+init\+\_\+\+\_\+@{\+\_\+\+\_\+init\+\_\+\+\_\+}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+init\+\_\+\+\_\+()}{\_\_init\_\_()}}
+{\footnotesize\ttfamily def Video\+Store.\+Video\+Store.\+\_\+\+\_\+init\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Constructs a \hyperlink{classVideoStore_1_1VideoStore}{Video\+Store} that initially has no items and no customers. 
+
+
+
+Definition at line 25 of file Video\+Store.\+py.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_a3c4bdb8e1df76ed65d00fdb32da18a3c}\label{classVideoStore_1_1VideoStore_a3c4bdb8e1df76ed65d00fdb32da18a3c}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}}
+\index{\+\_\+\+\_\+str\+\_\+\+\_\+@{\+\_\+\+\_\+str\+\_\+\+\_\+}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+str\+\_\+\+\_\+()}{\_\_str\_\_()}}
+{\footnotesize\ttfamily def Video\+Store.\+Video\+Store.\+\_\+\+\_\+str\+\_\+\+\_\+ (\begin{DoxyParamCaption}\item[{}]{self }\end{DoxyParamCaption})}
+
+
+
+Returns the set of users and items in this store. 
+
+\begin{DoxyReturn}{Returns}
+a string with all users and items. 
+\end{DoxyReturn}
+
+
+Definition at line 81 of file Video\+Store.\+py.
+
+
+
+References Video\+Store.\+Video\+Store.\+\_\+\+\_\+customers, and Video\+Store.\+Video\+Store.\+\_\+\+\_\+items.
+
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_a9580d5be76ce527ceef595dc600ff92c}\label{classVideoStore_1_1VideoStore_a9580d5be76ce527ceef595dc600ff92c}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!add\+Customer@{add\+Customer}}
+\index{add\+Customer@{add\+Customer}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{add\+Customer()}{addCustomer()}}
+{\footnotesize\ttfamily def Video\+Store.\+Video\+Store.\+add\+Customer (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{customer }\end{DoxyParamCaption})}
+
+
+
+Adds a customer to this store\textquotesingle{}s list of customers. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em customer} & the customer to be added \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 45 of file Video\+Store.\+py.
+
+
+
+References Video\+Store.\+Video\+Store.\+\_\+\+\_\+customers.
+
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_ad34e486af714a9513bff371d77b5dbbf}\label{classVideoStore_1_1VideoStore_ad34e486af714a9513bff371d77b5dbbf}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!add\+Item@{add\+Item}}
+\index{add\+Item@{add\+Item}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{add\+Item()}{addItem()}}
+{\footnotesize\ttfamily def Video\+Store.\+Video\+Store.\+add\+Item (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{item }\end{DoxyParamCaption})}
+
+
+
+Adds an item to this store\textquotesingle{}s list of items, provided that there is not already an item with the same barcode. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em item} & the item to be added \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 37 of file Video\+Store.\+py.
+
+
+
+References Video\+Store.\+Video\+Store.\+\_\+\+\_\+items.
+
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_a864a5c88322cc7fe8d469963af6fbb74}\label{classVideoStore_1_1VideoStore_a864a5c88322cc7fe8d469963af6fbb74}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!find\+User@{find\+User}}
+\index{find\+User@{find\+User}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{find\+User()}{findUser()}}
+{\footnotesize\ttfamily def Video\+Store.\+Video\+Store.\+find\+User (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{name }\end{DoxyParamCaption})}
+
+
+
+Returns the customer with the given name. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & the name of the customer to search for \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+the customer 
+\end{DoxyReturn}
+
+
+Definition at line 55 of file Video\+Store.\+py.
+
+
+
+References Video\+Store.\+Video\+Store.\+\_\+\+\_\+customers.
+
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_a29c4c5fb82ee840192af398692d41cf3}\label{classVideoStore_1_1VideoStore_a29c4c5fb82ee840192af398692d41cf3}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!search@{search}}
+\index{search@{search}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{search()}{search()}}
+{\footnotesize\ttfamily def Video\+Store.\+Video\+Store.\+search (\begin{DoxyParamCaption}\item[{}]{self,  }\item[{}]{condition }\end{DoxyParamCaption})}
+
+
+
+Search the store\textquotesingle{}s collection of for items satisfying the given \hyperlink{namespaceSearchCondition}{Search\+Condition}. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em condition} & the \hyperlink{namespaceSearchCondition}{Search\+Condition} \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+list of items satisfying the condition 
+\end{DoxyReturn}
+
+
+Definition at line 69 of file Video\+Store.\+py.
+
+
+
+References Video\+Store.\+Video\+Store.\+\_\+\+\_\+items.
+
+
+
+\subsection{Member Data Documentation}
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_ab8f773ef96cc4f8aca5b845d9c32da0e}\label{classVideoStore_1_1VideoStore_ab8f773ef96cc4f8aca5b845d9c32da0e}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!\+\_\+\+\_\+customers@{\+\_\+\+\_\+customers}}
+\index{\+\_\+\+\_\+customers@{\+\_\+\+\_\+customers}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+customers}{\_\_customers}}
+{\footnotesize\ttfamily Video\+Store.\+Video\+Store.\+\_\+\+\_\+customers\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The list of customers of this store. 
+
+
+
+Definition at line 29 of file Video\+Store.\+py.
+
+
+
+Referenced by Video\+Store.\+Video\+Store.\+\_\+\+\_\+str\+\_\+\+\_\+(), Video\+Store.\+Video\+Store.\+add\+Customer(), and Video\+Store.\+Video\+Store.\+find\+User().
+
+\mbox{\Hypertarget{classVideoStore_1_1VideoStore_a9b95fd49486fc2730c11920059fa1786}\label{classVideoStore_1_1VideoStore_a9b95fd49486fc2730c11920059fa1786}} 
+\index{Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}!\+\_\+\+\_\+items@{\+\_\+\+\_\+items}}
+\index{\+\_\+\+\_\+items@{\+\_\+\+\_\+items}!Video\+Store\+::\+Video\+Store@{Video\+Store\+::\+Video\+Store}}
+\subsubsection{\texorpdfstring{\+\_\+\+\_\+items}{\_\_items}}
+{\footnotesize\ttfamily Video\+Store.\+Video\+Store.\+\_\+\+\_\+items\hspace{0.3cm}{\ttfamily [private]}}
+
+
+
+The items in this store. 
+
+
+
+Definition at line 27 of file Video\+Store.\+py.
+
+
+
+Referenced by Video\+Store.\+Video\+Store.\+\_\+\+\_\+str\+\_\+\+\_\+(), Video\+Store.\+Video\+Store.\+add\+Item(), and Video\+Store.\+Video\+Store.\+search().
+
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+\hyperlink{VideoStore_8py}{Video\+Store.\+py}\end{DoxyCompactItemize}

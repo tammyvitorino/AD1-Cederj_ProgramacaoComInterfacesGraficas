@@ -1,0 +1,1124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<add>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text">AbstractItem Item.Item</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00025</field>
+    <field name="keywords"></field>
+    <field name="text">__init__</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00027</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00029</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00031</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00033</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00035</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00038</field>
+    <field name="keywords"></field>
+    <field name="text">isRented</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00042</field>
+    <field name="keywords"></field>
+    <field name="text">getDueDate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00048</field>
+    <field name="keywords"></field>
+    <field name="text">getTitle</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00052</field>
+    <field name="keywords"></field>
+    <field name="text">getBarcode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00076</field>
+    <field name="keywords"></field>
+    <field name="text">__str__ type</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00095</field>
+    <field name="keywords"></field>
+    <field name="text">__eq__ isinstance obj.getBarcode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py_source.html#l00100</field>
+    <field name="keywords"></field>
+    <field name="text">main AbstractItem AbstractItem sys.exit main</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00025</field>
+    <field name="keywords"></field>
+    <field name="text">Customer</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00033</field>
+    <field name="keywords"></field>
+    <field name="text">__init__</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00035</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00037</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00039</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00053</field>
+    <field name="keywords"></field>
+    <field name="text">rentItem StatusException item.setRented item.getRentalCost append</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00073</field>
+    <field name="keywords"></field>
+    <field name="text">bringBackItem</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00083</field>
+    <field name="keywords"></field>
+    <field name="text">getBalance</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00091</field>
+    <field name="keywords"></field>
+    <field name="text">getName</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00099</field>
+    <field name="keywords"></field>
+    <field name="text">makePayment</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00110</field>
+    <field name="keywords"></field>
+    <field name="text">__str__</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00126</field>
+    <field name="keywords"></field>
+    <field name="text">canRent item.getDueDate isBefore</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py_source.html#l00132</field>
+    <field name="keywords"></field>
+    <field name="text">main AbstractItem Customer customer.canRent datetime.datetime.now customer.rentItem print sys.exit main</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">GenreSearch.py</field>
+    <field name="url">GenreSearch_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">GenreSearch.py</field>
+    <field name="url">GenreSearch_8py_source.html#l00017</field>
+    <field name="keywords"></field>
+    <field name="text">GenreSearch SearchCondition</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">GenreSearch.py</field>
+    <field name="url">GenreSearch_8py_source.html#l00024</field>
+    <field name="keywords"></field>
+    <field name="text">__init__</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">GenreSearch.py</field>
+    <field name="url">GenreSearch_8py_source.html#l00026</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">GenreSearch.py</field>
+    <field name="url">GenreSearch_8py_source.html#l00033</field>
+    <field name="keywords"></field>
+    <field name="text">matches item.getGenre</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00021</field>
+    <field name="keywords"></field>
+    <field name="text">Item object</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00030</field>
+    <field name="keywords"></field>
+    <field name="text">setRented StatusException</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00040</field>
+    <field name="keywords"></field>
+    <field name="text">setReturned StatusException</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00048</field>
+    <field name="keywords"></field>
+    <field name="text">getRentalCost</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00060</field>
+    <field name="keywords"></field>
+    <field name="text">calculateLateFee</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00068</field>
+    <field name="keywords"></field>
+    <field name="text">getGenre</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00076</field>
+    <field name="keywords"></field>
+    <field name="text">isRented</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00085</field>
+    <field name="keywords"></field>
+    <field name="text">getDueDate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00093</field>
+    <field name="keywords"></field>
+    <field name="text">getTitle</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py_source.html#l00101</field>
+    <field name="keywords"></field>
+    <field name="text">getBarcode</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SearchCondition.py</field>
+    <field name="url">SearchCondition_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SearchCondition.py</field>
+    <field name="url">SearchCondition_8py_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text">SearchCondition</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SearchCondition.py</field>
+    <field name="url">SearchCondition_8py_source.html#l00024</field>
+    <field name="keywords"></field>
+    <field name="text">matches</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text">SimpleDate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00019</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00027</field>
+    <field name="keywords"></field>
+    <field name="text">__init__ str str str</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00030</field>
+    <field name="keywords"></field>
+    <field name="text">datetime.datetime.strptime date</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00038</field>
+    <field name="keywords"></field>
+    <field name="text">SimpleDateFromDays datetime.datetime.strptime str date datetime.timedelta str split SimpleDate</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00051</field>
+    <field name="keywords"></field>
+    <field name="text">isBefore</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00060</field>
+    <field name="keywords"></field>
+    <field name="text">daysUntil other.__date dt.days</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00066</field>
+    <field name="keywords"></field>
+    <field name="text">__str__ timetuple tp.tm_year tp.tm_mon tp.tm_mday</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py_source.html#l00071</field>
+    <field name="keywords"></field>
+    <field name="text">main SimpleDate date.SimpleDateFromDays date.daysUntil date.isBefore sys.exit main</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">StatusException.py</field>
+    <field name="url">StatusException_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">StatusException.py</field>
+    <field name="url">StatusException_8py_source.html#l00016</field>
+    <field name="keywords"></field>
+    <field name="text">StatusException Exception</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">StatusException.py</field>
+    <field name="url">StatusException_8py_source.html#l00022</field>
+    <field name="keywords"></field>
+    <field name="text">__init__</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">StatusException.py</field>
+    <field name="url">StatusException_8py_source.html#l00026</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00001</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00020</field>
+    <field name="keywords"></field>
+    <field name="text">VideoStore</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00025</field>
+    <field name="keywords"></field>
+    <field name="text">__init__</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00027</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00029</field>
+    <field name="keywords"></field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00037</field>
+    <field name="keywords"></field>
+    <field name="text">addItem append</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00045</field>
+    <field name="keywords"></field>
+    <field name="text">addCustomer append</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00055</field>
+    <field name="keywords"></field>
+    <field name="text">findUser p.getName</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00069</field>
+    <field name="keywords"></field>
+    <field name="text">search condition.matches results.append</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00081</field>
+    <field name="keywords"></field>
+    <field name="text">__str__ item.getGenre str</field>
+  </doc>
+  <doc>
+    <field name="type">source</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py_source.html#l00093</field>
+    <field name="keywords"></field>
+    <field name="text">main VideoStore AbstractItem AbstractItem Customer Customer Customer store.addCustomer store.addCustomer store.addCustomer store.addItem store.addItem store.findUser sys.exit main</field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">AbstractItem.py</field>
+    <field name="url">AbstractItem_8py.html</field>
+    <field name="keywords">AbstractItem.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.main</field>
+    <field name="args">()</field>
+    <field name="url">namespaceAbstractItem.html#a7d683b601738c49aaaca4fd256281fa4</field>
+    <field name="keywords">main AbstractItem.main AbstractItem main AbstractItem.main AbstractItem</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Customer.py</field>
+    <field name="url">Customer_8py.html</field>
+    <field name="keywords">Customer.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.main</field>
+    <field name="args">()</field>
+    <field name="url">namespaceCustomer.html#a0ca159d489f39b0d2073130a65e6c0cc</field>
+    <field name="keywords">main Customer.main Customer main Customer.main Customer</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">GenreSearch.py</field>
+    <field name="url">GenreSearch_8py.html</field>
+    <field name="keywords">GenreSearch.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">Item.py</field>
+    <field name="url">Item_8py.html</field>
+    <field name="keywords">Item.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">SearchCondition.py</field>
+    <field name="url">SearchCondition_8py.html</field>
+    <field name="keywords">SearchCondition.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">SimpleDate.py</field>
+    <field name="url">SimpleDate_8py.html</field>
+    <field name="keywords">SimpleDate.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">SimpleDate.main</field>
+    <field name="args">()</field>
+    <field name="url">namespaceSimpleDate.html#ab140fefeaf1e771ff130ecde43e449af</field>
+    <field name="keywords">main SimpleDate.main SimpleDate main SimpleDate.main SimpleDate</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">StatusException.py</field>
+    <field name="url">StatusException_8py.html</field>
+    <field name="keywords">StatusException.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">file</field>
+    <field name="name">VideoStore.py</field>
+    <field name="url">VideoStore_8py.html</field>
+    <field name="keywords">VideoStore.py</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">VideoStore.main</field>
+    <field name="args">()</field>
+    <field name="url">namespaceVideoStore.html#a6603ba5aae730a23153833ed43d2ad88</field>
+    <field name="keywords">main VideoStore.main VideoStore main VideoStore.main VideoStore</field>
+    <field name="text"></field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">AbstractItem</field>
+    <field name="url">namespaceAbstractItem.html</field>
+    <field name="keywords">AbstractItem</field>
+    <field name="text">Partial implementation of the Item interface Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">AbstractItem.AbstractItem</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html</field>
+    <field name="keywords">AbstractItem</field>
+    <field name="text">Partial implementation of the Item interface</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.AbstractItem.__init__</field>
+    <field name="args">(self, title, genre, barcode)</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a33578b09c4f0fd29c582bdd0e0977577</field>
+    <field name="keywords">__init__ AbstractItem.AbstractItem.__init__ AbstractItem.AbstractItem</field>
+    <field name="text">Constructs a new Item with the given title genre and barcode This constructor may only be invoked by subclasses title the title of the item genre the genre of the item barcode a unique integer identifier for the item</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.AbstractItem.isRented</field>
+    <field name="args">(self)</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a566051dd4f0e9b3ba3ce8214a8779244</field>
+    <field name="keywords">isRented AbstractItem.AbstractItem.isRented AbstractItem.AbstractItem</field>
+    <field name="text">Returns whether this item is rented</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.AbstractItem.getDueDate</field>
+    <field name="args">(self)</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#abcf92f11f8210ca0e413dc2bc64cb6aa</field>
+    <field name="keywords">getDueDate AbstractItem.AbstractItem.getDueDate AbstractItem.AbstractItem</field>
+    <field name="text">Returns this item due date</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.AbstractItem.getTitle</field>
+    <field name="args">(self)</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a9ab1907f5110c1047957f2d1f4bebb82</field>
+    <field name="keywords">getTitle AbstractItem.AbstractItem.getTitle AbstractItem.AbstractItem</field>
+    <field name="text">Returns this item title</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.AbstractItem.getBarcode</field>
+    <field name="args">(self)</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a9c84bde2c7eadc30f70753b8c54b6fb3</field>
+    <field name="keywords">getBarcode AbstractItem.AbstractItem.getBarcode AbstractItem.AbstractItem</field>
+    <field name="text">Returns this item barcode</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.AbstractItem.__str__</field>
+    <field name="args">(self)</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#ac55364df8cb3e7a488842409c372d634</field>
+    <field name="keywords">__str__ AbstractItem.AbstractItem.__str__ AbstractItem.AbstractItem</field>
+    <field name="text">Returns a representation of the state of this object as a multiline string The format is type title genre status The status is either Rented yyyy-mm-dd or Available where is the current due date a string representation of this object</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">AbstractItem.AbstractItem.__eq__</field>
+    <field name="args">(self, obj)</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#aaa91fe39e01044fd43770867092d45ea</field>
+    <field name="keywords">__eq__ AbstractItem.AbstractItem.__eq__ AbstractItem.AbstractItem</field>
+    <field name="text">Determines whether this item is the same as another one based on its barcode obj the object to compare to this item true if the given object is an AbstractItem with the same barcode as this one</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.setRented</field>
+    <field name="args">(self, today)</field>
+    <field name="url">classItem_1_1Item.html#a866dd05fa3e3ab124f6afeaa171ab516</field>
+    <field name="keywords">setRented Item.Item.setRented Item.Item setRented Item.Item.setRented Item.Item</field>
+    <field name="text">Rents this item if it is not already rented and sets the due date Rents this item if it is not already rented and sets the due date today the date on which this item is being rented StatusException if the item cannot be rented</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.setReturned</field>
+    <field name="args">(self, today)</field>
+    <field name="url">classItem_1_1Item.html#afc0dccd77c3d32664c5a424886d7d53c</field>
+    <field name="keywords">setReturned Item.Item.setReturned Item.Item setReturned Item.Item.setReturned Item.Item</field>
+    <field name="text">Returns this item if it is currently rented Returns this item if it is currently rented today the date on which the item is being returned StatusException if the item is not currently rented</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.getRentalCost</field>
+    <field name="args">(self)</field>
+    <field name="url">classItem_1_1Item.html#afe4448d1a099b956ecc0fc66ca22925d</field>
+    <field name="keywords">getRentalCost Item.Item.getRentalCost Item.Item getRentalCost Item.Item.getRentalCost Item.Item</field>
+    <field name="text">Returns the cost to rent this item Returns the cost to rent this item cost to rent the item</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.calculateLateFee</field>
+    <field name="args">(self, today)</field>
+    <field name="url">classItem_1_1Item.html#a17d1bdd2d1f6d4ad81a9d1fd0b2d149d</field>
+    <field name="keywords">calculateLateFee Item.Item.calculateLateFee Item.Item calculateLateFee Item.Item.calculateLateFee Item.Item</field>
+    <field name="text">Calculates the late fee or bonus that would be charged or applied for returning the item on the given date Calculates the late fee or bonus that would be charged or applied for returning the item on the given date today the date on which the item is being returned the late fee or bonus for returning the item on the given date or zero if the item is not currently rented</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.getGenre</field>
+    <field name="args">(self)</field>
+    <field name="url">classItem_1_1Item.html#a4f815eee80b9dffbbc0be9d79a0520ff</field>
+    <field name="keywords">getGenre Item.Item.getGenre Item.Item getGenre Item.Item.getGenre Item.Item</field>
+    <field name="text">Returns a String representing the genre of this item Returns a String representing the genre of this item genre of this item</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.isRented</field>
+    <field name="args">(self)</field>
+    <field name="url">classItem_1_1Item.html#a2dcb80d5765c07aefe735cd657385764</field>
+    <field name="keywords">isRented Item.Item.isRented Item.Item isRented Item.Item.isRented Item.Item</field>
+    <field name="text">Determines whether this item is currently rented Determines whether this item is currently rented true if this item is rented false otherwise</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.getDueDate</field>
+    <field name="args">(self)</field>
+    <field name="url">classItem_1_1Item.html#a14c6c86e71412609102c9fb0cd009751</field>
+    <field name="keywords">getDueDate Item.Item.getDueDate Item.Item getDueDate Item.Item.getDueDate Item.Item</field>
+    <field name="text">Returns the due date for this item if it is currently rented or null if the item is not rented Returns the due date for this item if it is currently rented or null if the item is not rented due date for this item</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.getTitle</field>
+    <field name="args">(self)</field>
+    <field name="url">classItem_1_1Item.html#a2b359025258f0b0f0ef33d7da4f806fa</field>
+    <field name="keywords">getTitle Item.Item.getTitle Item.Item getTitle Item.Item.getTitle Item.Item</field>
+    <field name="text">Returns the title of this item Returns the title of this item title of this item</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Item.Item.getBarcode</field>
+    <field name="args">(self)</field>
+    <field name="url">classItem_1_1Item.html#ac53c971f8932eb428ee5a9999ba8c541</field>
+    <field name="keywords">getBarcode Item.Item.getBarcode Item.Item getBarcode Item.Item.getBarcode Item.Item</field>
+    <field name="text">Returns the integer barcode for this item Returns the integer barcode for this item barcode of this item</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">AbstractItem.AbstractItem.__title</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a2f4dc201ed6687e84b1b1b03863443c7</field>
+    <field name="keywords">__title AbstractItem.AbstractItem.__title AbstractItem.AbstractItem</field>
+    <field name="text">Title of this item</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">AbstractItem.AbstractItem.__genre</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a9a18f410b1160da5c633a92ff228e5ee</field>
+    <field name="keywords">__genre AbstractItem.AbstractItem.__genre AbstractItem.AbstractItem</field>
+    <field name="text">Genre of this item</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">AbstractItem.AbstractItem.__barcode</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a37fae73390cb431a6395a07ce5b5a5c7</field>
+    <field name="keywords">__barcode AbstractItem.AbstractItem.__barcode AbstractItem.AbstractItem</field>
+    <field name="text">Unique Barcode for this item</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">AbstractItem.AbstractItem.__rented</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a5da9a42e491e8eb843fae960748ec7e7</field>
+    <field name="keywords">__rented AbstractItem.AbstractItem.__rented AbstractItem.AbstractItem</field>
+    <field name="text">Rental status of this item</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">AbstractItem.AbstractItem.__dueDate</field>
+    <field name="url">classAbstractItem_1_1AbstractItem.html#a6975f7e62b35b3162dd9c3aef089c1a3</field>
+    <field name="keywords">__dueDate AbstractItem.AbstractItem.__dueDate AbstractItem.AbstractItem</field>
+    <field name="text">Due date for this item</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">Customer</field>
+    <field name="url">namespaceCustomer.html</field>
+    <field name="keywords">Customer</field>
+    <field name="text">A class describing a customer of the Video Store Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">Customer.Customer</field>
+    <field name="url">classCustomer_1_1Customer.html</field>
+    <field name="keywords">Customer</field>
+    <field name="text">A Customer is a client of a VideoStore who can rent items A client is identified by a unique name At any given time a Customer has a list of items currently rented and a balance representing rental charges late fees or credits where a negative balance indicates a credit Balances are in cents Ordinary customers are not allowed to rent new items if they have any items overdue</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.__init__</field>
+    <field name="args">(self, name)</field>
+    <field name="url">classCustomer_1_1Customer.html#a9a6e72f7972ab6669244ee32b5c15fa8</field>
+    <field name="keywords">__init__ Customer.Customer.__init__ Customer.Customer</field>
+    <field name="text">Constructs a Customer with the given name Initially there are no items rented and the balance is zero name the new customer s name</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.rentItem</field>
+    <field name="args">(self, item, today)</field>
+    <field name="url">classCustomer_1_1Customer.html#aeda8ba0748ed02a22582207d04d90d62</field>
+    <field name="keywords">rentItem Customer.Customer.rentItem Customer.Customer</field>
+    <field name="text">Rents an item and adds it to this customer s list of items If the item can be rented this method updates the item s status including the due date and then adds it to this customer s list of items If the item cannot be rented to this customer a StatusException is thrown item the item to be rented today the date on which the item is being rented StatusException if the item cannot be rented to this customer for any reason</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.bringBackItem</field>
+    <field name="args">(self, barcode, today)</field>
+    <field name="url">classCustomer_1_1Customer.html#ac589f3f34db4ca44e3071e7260f5f8b6</field>
+    <field name="keywords">bringBackItem Customer.Customer.bringBackItem Customer.Customer</field>
+    <field name="text">Returns an item that this customer currently has rented and updates the balance if a late fee or credit is due If the item can be successfully returned this method updates the item s status and removes it from this customer s list of items If the customer does not have the item rented a StatusException is thrown barcode identifier for the item to be returned today the date on which the item is being returned StatusException if this customer does not have the given item rented</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.getBalance</field>
+    <field name="args">(self)</field>
+    <field name="url">classCustomer_1_1Customer.html#aebb56585524424bcededa48f90a2dde6</field>
+    <field name="keywords">getBalance Customer.Customer.getBalance Customer.Customer</field>
+    <field name="text">Returns the balance for this customer this customer s balance</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.getName</field>
+    <field name="args">(self)</field>
+    <field name="url">classCustomer_1_1Customer.html#a154e1dbfb02e85d29b52e620b6283677</field>
+    <field name="keywords">getName Customer.Customer.getName Customer.Customer</field>
+    <field name="text">Returns the name of this customer this customer s name</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.makePayment</field>
+    <field name="args">(self, amount)</field>
+    <field name="url">classCustomer_1_1Customer.html#a87070bd1a552dd094365dc4464253a3a</field>
+    <field name="keywords">makePayment Customer.Customer.makePayment Customer.Customer</field>
+    <field name="text">Makes a payment on this customer s balance amount the amount to be paid in cents</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.__str__</field>
+    <field name="args">(self)</field>
+    <field name="url">classCustomer_1_1Customer.html#aa12655d57338586f1ee2a5c101d44356</field>
+    <field name="keywords">__str__ Customer.Customer.__str__ Customer.Customer</field>
+    <field name="text">Returns a string representation of this customer The format consists of multiple lines The first line is the patron s name Subsequent lines are formed from the str values of the items currently rented separated by a newline representation of this object as a multi-line string</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">Customer.Customer.canRent</field>
+    <field name="args">(self, today)</field>
+    <field name="url">classCustomer_1_1Customer.html#ad2f1246cd764010c5701930f6576f5e0</field>
+    <field name="keywords">canRent Customer.Customer.canRent Customer.Customer</field>
+    <field name="text">Helper method determines whether this customer already has overdue items today the current date true if the customer has no overdue items false otherwise</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Customer.Customer.__itemsOut</field>
+    <field name="url">classCustomer_1_1Customer.html#a573f55a71c994b6881a99fe055e9e1c2</field>
+    <field name="keywords">__itemsOut Customer.Customer.__itemsOut Customer.Customer</field>
+    <field name="text">Items currently rented by this customer</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Customer.Customer.__name</field>
+    <field name="url">classCustomer_1_1Customer.html#a400a0ef109352dbf3f843006f22e611f</field>
+    <field name="keywords">__name Customer.Customer.__name Customer.Customer</field>
+    <field name="text">Name of this customer</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">Customer.Customer.__balance</field>
+    <field name="url">classCustomer_1_1Customer.html#a3fe2716ffce15422d3bebc6989a1353d</field>
+    <field name="keywords">__balance Customer.Customer.__balance Customer.Customer</field>
+    <field name="text">Balance currently owed by this customer</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">GenreSearch</field>
+    <field name="url">namespaceGenreSearch.html</field>
+    <field name="keywords">GenreSearch</field>
+    <field name="text">Class for searching items matching a given genre Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">GenreSearch.GenreSearch</field>
+    <field name="url">classGenreSearch_1_1GenreSearch.html</field>
+    <field name="keywords">GenreSearch</field>
+    <field name="text">Implementation of SearchCondition that matches items based on the genre not case sensitive</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">GenreSearch.GenreSearch.__init__</field>
+    <field name="args">(self, genre)</field>
+    <field name="url">classGenreSearch_1_1GenreSearch.html#ad098e5ccc44530bafd752eca9b928ea7</field>
+    <field name="keywords">__init__ GenreSearch.GenreSearch.__init__ GenreSearch.GenreSearch</field>
+    <field name="text">Constructs a GenreSearch for the given value genre the genre to search for</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">GenreSearch.GenreSearch.matches</field>
+    <field name="args">(self, item)</field>
+    <field name="url">classGenreSearch_1_1GenreSearch.html#a5804ebb42a3d38e89a4591be173a22d0</field>
+    <field name="keywords">matches GenreSearch.GenreSearch.matches GenreSearch.GenreSearch</field>
+    <field name="text">Matches this genre with the genre of a given item item containing the genre to compare to</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">SearchCondition.SearchCondition.matches</field>
+    <field name="args">(self, item)</field>
+    <field name="url">classSearchCondition_1_1SearchCondition.html#a3e1b1fe7a20c9b86a8716a756bb3849c</field>
+    <field name="keywords">matches SearchCondition.SearchCondition.matches SearchCondition.SearchCondition matches SearchCondition.SearchCondition.matches SearchCondition.SearchCondition</field>
+    <field name="text">Determine whether the given item matches this search condition s criteria for inclusion Determine whether the given item matches this search condition s criteria for inclusion item the item to be checked true if the item matches this condition s criteria false otherwise</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">GenreSearch.GenreSearch.__genre</field>
+    <field name="url">classGenreSearch_1_1GenreSearch.html#a659affb5b3425cb942692d18a3d47b36</field>
+    <field name="keywords">__genre GenreSearch.GenreSearch.__genre GenreSearch.GenreSearch</field>
+    <field name="text">The genre we are searching for</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">Item</field>
+    <field name="url">namespaceItem.html</field>
+    <field name="keywords">Item</field>
+    <field name="text">A class modeling an item of the Video Store Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">Item.Item</field>
+    <field name="url">classItem_1_1Item.html</field>
+    <field name="keywords">Item</field>
+    <field name="text">This is an abstract class All methods here must be implemented elsewhere An item represents a movie or game that can be rented from a video store Each item has a title a genre and a unique integer identifier called a barcode An item can be rented or available and if rented it has a due date</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">SearchCondition</field>
+    <field name="url">namespaceSearchCondition.html</field>
+    <field name="keywords">SearchCondition</field>
+    <field name="text">A search predicate for items Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">SearchCondition.SearchCondition</field>
+    <field name="url">classSearchCondition_1_1SearchCondition.html</field>
+    <field name="keywords">SearchCondition</field>
+    <field name="text">Abstraction of a search predicate for items Subtypes can customize the nature of the search e.g exact title title keywords genre etc</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">SimpleDate</field>
+    <field name="url">namespaceSimpleDate.html</field>
+    <field name="keywords">SimpleDate</field>
+    <field name="text">Packages dates in the format yyyy-mm-dd Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">SimpleDate.SimpleDate</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html</field>
+    <field name="keywords">SimpleDate</field>
+    <field name="text">Date consisting of a year month and day</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">SimpleDate.SimpleDate.__init__</field>
+    <field name="args">(self, year, month, day)</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html#a8e01278f5e3987e64396ef345ccb7dde</field>
+    <field name="keywords">__init__ SimpleDate.SimpleDate.__init__ SimpleDate.SimpleDate</field>
+    <field name="text">Constructs a SimpleDate with the given year month and day year four-digit year month 1-based month number day 1-based day of month</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">SimpleDate.SimpleDate.SimpleDateFromDays</field>
+    <field name="args">(self, existing, additionalDays)</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html#a84c11740813035133e89c4f55d35268d</field>
+    <field name="keywords">SimpleDateFromDays SimpleDate.SimpleDate.SimpleDateFromDays SimpleDate.SimpleDate</field>
+    <field name="text">Returns a SimpleDate that is a given number of days after an existing date existing the given SimpleDate additionalDays the number of days to be added to the existing date</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">SimpleDate.SimpleDate.isBefore</field>
+    <field name="args">(self, other)</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html#a3f991d5bf914be8175808732a37296c4</field>
+    <field name="keywords">isBefore SimpleDate.SimpleDate.isBefore SimpleDate.SimpleDate</field>
+    <field name="text">Determines whether this date is strictly earlier than the given date other true if this date is strictly before the given date false otherwise</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">SimpleDate.SimpleDate.daysUntil</field>
+    <field name="args">(self, other)</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html#a9e6a7a4fa0751c99c28dc7130c849944</field>
+    <field name="keywords">daysUntil SimpleDate.SimpleDate.daysUntil SimpleDate.SimpleDate</field>
+    <field name="text">Returns the number of days from this date until the given date Returns a negative number if this date after the given date other the future date number of days until the given date negative if it is in the past</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">SimpleDate.SimpleDate.__str__</field>
+    <field name="args">(self)</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html#ad33dd54a78befede77ffed77c85d6861</field>
+    <field name="keywords">__str__ SimpleDate.SimpleDate.__str__ SimpleDate.SimpleDate</field>
+    <field name="text">Prints this simpleDate in the format year-month-day</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">SimpleDate.SimpleDate.MILLIS_IN_24_HOURS</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html#a0481c6d110c7475177a3e59aa89fb20b</field>
+    <field name="keywords">MILLIS_IN_24_HOURS SimpleDate.SimpleDate.MILLIS_IN_24_HOURS SimpleDate.SimpleDate</field>
+    <field name="text">Number of millisecons in one day</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">SimpleDate.SimpleDate.__date</field>
+    <field name="url">classSimpleDate_1_1SimpleDate.html#a0ae516370c49819c39e89606e163a875</field>
+    <field name="keywords">__date SimpleDate.SimpleDate.__date SimpleDate.SimpleDate</field>
+    <field name="text">Holds the date in this SimpleDate object</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">StatusException</field>
+    <field name="url">namespaceStatusException.html</field>
+    <field name="keywords">StatusException</field>
+    <field name="text">Exceptions to be thrown when an error has occurred Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">StatusException.StatusException</field>
+    <field name="url">classStatusException_1_1StatusException.html</field>
+    <field name="keywords">StatusException</field>
+    <field name="text">Exception type thrown for invalid operations such as attempting to rent an item that is already rented</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">StatusException.StatusException.__init__</field>
+    <field name="args">(self, msg)</field>
+    <field name="url">classStatusException_1_1StatusException.html#a2b3f98decbd77f5e59626b9b50b27a36</field>
+    <field name="keywords">__init__ StatusException.StatusException.__init__ StatusException.StatusException</field>
+    <field name="text">Constructs a StatusException with the given message msg message for this exception</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">StatusException.StatusException.msg</field>
+    <field name="url">classStatusException_1_1StatusException.html#a4f3ffa4a96ccf5ca673e9e800d2f4c56</field>
+    <field name="keywords">msg StatusException.StatusException.msg StatusException.StatusException</field>
+    <field name="text">hold the error message</field>
+  </doc>
+  <doc>
+    <field name="type">namespace</field>
+    <field name="name">VideoStore</field>
+    <field name="url">namespaceVideoStore.html</field>
+    <field name="keywords">VideoStore</field>
+    <field name="text">A video store that rents DVDs and Games Paulo Roma 11/07/2017</field>
+  </doc>
+  <doc>
+    <field name="type">class</field>
+    <field name="name">VideoStore.VideoStore</field>
+    <field name="url">classVideoStore_1_1VideoStore.html</field>
+    <field name="keywords">VideoStore</field>
+    <field name="text">VideoStore consists of a list of items and a list of customers who can rent items</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">VideoStore.VideoStore.__init__</field>
+    <field name="args">(self)</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#ae5c993cbfde1d6a6b872471dd8113184</field>
+    <field name="keywords">__init__ VideoStore.VideoStore.__init__ VideoStore.VideoStore</field>
+    <field name="text">Constructs a VideoStore that initially has no items and no customers</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">VideoStore.VideoStore.addItem</field>
+    <field name="args">(self, item)</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#ad34e486af714a9513bff371d77b5dbbf</field>
+    <field name="keywords">addItem VideoStore.VideoStore.addItem VideoStore.VideoStore</field>
+    <field name="text">Adds an item to this store s list of items provided that there is not already an item with the same barcode item the item to be added</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">VideoStore.VideoStore.addCustomer</field>
+    <field name="args">(self, customer)</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#a9580d5be76ce527ceef595dc600ff92c</field>
+    <field name="keywords">addCustomer VideoStore.VideoStore.addCustomer VideoStore.VideoStore</field>
+    <field name="text">Adds a customer to this store s list of customers customer the customer to be added</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">VideoStore.VideoStore.findUser</field>
+    <field name="args">(self, name)</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#a864a5c88322cc7fe8d469963af6fbb74</field>
+    <field name="keywords">findUser VideoStore.VideoStore.findUser VideoStore.VideoStore</field>
+    <field name="text">Returns the customer with the given name name the name of the customer to search for the customer</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">VideoStore.VideoStore.search</field>
+    <field name="args">(self, condition)</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#a29c4c5fb82ee840192af398692d41cf3</field>
+    <field name="keywords">search VideoStore.VideoStore.search VideoStore.VideoStore</field>
+    <field name="text">Search the store s collection of for items satisfying the given SearchCondition condition the SearchCondition list of items satisfying the condition</field>
+  </doc>
+  <doc>
+    <field name="type">function</field>
+    <field name="name">VideoStore.VideoStore.__str__</field>
+    <field name="args">(self)</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#a3c4bdb8e1df76ed65d00fdb32da18a3c</field>
+    <field name="keywords">__str__ VideoStore.VideoStore.__str__ VideoStore.VideoStore</field>
+    <field name="text">Returns the set of users and items in this store a string with all users and items</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">VideoStore.VideoStore.__items</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#a9b95fd49486fc2730c11920059fa1786</field>
+    <field name="keywords">__items VideoStore.VideoStore.__items VideoStore.VideoStore</field>
+    <field name="text">The items in this store</field>
+  </doc>
+  <doc>
+    <field name="type">variable</field>
+    <field name="name">VideoStore.VideoStore.__customers</field>
+    <field name="url">classVideoStore_1_1VideoStore.html#ab8f773ef96cc4f8aca5b845d9c32da0e</field>
+    <field name="keywords">__customers VideoStore.VideoStore.__customers VideoStore.VideoStore</field>
+    <field name="text">The list of customers of this store</field>
+  </doc>
+</add>

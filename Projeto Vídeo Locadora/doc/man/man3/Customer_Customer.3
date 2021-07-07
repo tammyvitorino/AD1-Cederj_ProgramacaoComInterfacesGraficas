@@ -1,0 +1,239 @@
+.TH "Customer.Customer" 3 "Fri Jul 14 2017" "Version 1.0" "Video_Store" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Customer.Customer \- A \fBCustomer\fP is a client of a \fBVideoStore\fP who can rent items\&.  
+
+.SH SYNOPSIS
+.br
+.PP
+.SS "Public Member Functions"
+
+.in +1c
+.ti -1c
+.RI "def \fB__init__\fP (self, name)"
+.br
+.RI "Constructs a \fBCustomer\fP with the given name\&. "
+.ti -1c
+.RI "def \fBrentItem\fP (self, item, today)"
+.br
+.RI "Rents an item and adds it to this customer's list of items\&. "
+.ti -1c
+.RI "def \fBbringBackItem\fP (self, barcode, today)"
+.br
+.RI "Returns an item that this customer currently has rented and updates the balance if a late fee or credit is due\&. "
+.ti -1c
+.RI "def \fBgetBalance\fP (self)"
+.br
+.RI "Returns the balance for this customer\&. "
+.ti -1c
+.RI "def \fBgetName\fP (self)"
+.br
+.RI "Returns the name of this customer\&. "
+.ti -1c
+.RI "def \fBmakePayment\fP (self, amount)"
+.br
+.RI "Makes a payment on this customer's balance\&. "
+.ti -1c
+.RI "def \fB__str__\fP (self)"
+.br
+.RI "Returns a string representation of this customer\&. "
+.ti -1c
+.RI "def \fBcanRent\fP (self, today)"
+.br
+.RI "Helper method determines whether this customer already has overdue items\&. "
+.in -1c
+.SS "Private Attributes"
+
+.in +1c
+.ti -1c
+.RI "\fB__itemsOut\fP"
+.br
+.RI "Items currently rented by this customer\&. "
+.ti -1c
+.RI "\fB__name\fP"
+.br
+.RI "Name of this customer\&. "
+.ti -1c
+.RI "\fB__balance\fP"
+.br
+.RI "Balance currently owed by this customer\&. "
+.in -1c
+.SH "Detailed Description"
+.PP 
+A \fBCustomer\fP is a client of a \fBVideoStore\fP who can rent items\&. 
+
+A client is identified by a unique name\&. At any given time a \fBCustomer\fP has a list of items currently rented, and a balance representing rental charges, late fees, or credits (where a negative balance indicates a credit)\&. Balances are in cents\&. Ordinary customers are not allowed to rent new items if they have any items overdue\&. 
+.PP
+Definition at line 25 of file Customer\&.py\&.
+.SH "Constructor & Destructor Documentation"
+.PP 
+.SS "def Customer\&.Customer\&.__init__ ( self,  name)"
+
+.PP
+Constructs a \fBCustomer\fP with the given name\&. Initially there are no items rented and the balance is zero\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIname\fP the new customer's name 
+.RE
+.PP
+
+.PP
+Definition at line 33 of file Customer\&.py\&.
+.SH "Member Function Documentation"
+.PP 
+.SS "def Customer\&.Customer\&.__str__ ( self)"
+
+.PP
+Returns a string representation of this customer\&. The format consists of multiple lines\&. The first line is the patron's name\&. Subsequent lines are formed from the \fBstr\fP() values of the items currently rented, separated by a newline\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+representation of this object as a multi-line string 
+.RE
+.PP
+
+.PP
+Definition at line 110 of file Customer\&.py\&.
+.PP
+References Customer\&.Customer\&.__itemsOut, and Customer\&.Customer\&.__name\&.
+.SS "def Customer\&.Customer\&.bringBackItem ( self,  barcode,  today)"
+
+.PP
+Returns an item that this customer currently has rented and updates the balance if a late fee or credit is due\&. If the item can be successfully returned, this method updates the item's status and removes it from this customer's list of items\&. If the customer does not have the item rented, a \fBStatusException\fP is thrown\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIbarcode\fP identifier for the item to be returned 
+.br
+\fItoday\fP the date on which the item is being returned 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBStatusException\fP\fP if this customer does not have the given item rented 
+.RE
+.PP
+
+.PP
+Definition at line 73 of file Customer\&.py\&.
+.SS "def Customer\&.Customer\&.canRent ( self,  today)"
+
+.PP
+Helper method determines whether this customer already has overdue items\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fItoday\fP the current date 
+.RE
+.PP
+\fBReturns:\fP
+.RS 4
+true if the customer has no overdue items, false otherwise 
+.RE
+.PP
+
+.PP
+Definition at line 126 of file Customer\&.py\&.
+.PP
+References Customer\&.Customer\&.__itemsOut\&.
+.PP
+Referenced by Customer\&.Customer\&.rentItem()\&.
+.SS "def Customer\&.Customer\&.getBalance ( self)"
+
+.PP
+Returns the balance for this customer\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+this customer's balance 
+.RE
+.PP
+
+.PP
+Definition at line 83 of file Customer\&.py\&.
+.PP
+References Customer\&.Customer\&.__balance\&.
+.SS "def Customer\&.Customer\&.getName ( self)"
+
+.PP
+Returns the name of this customer\&. 
+.PP
+\fBReturns:\fP
+.RS 4
+this customer's name 
+.RE
+.PP
+
+.PP
+Definition at line 91 of file Customer\&.py\&.
+.PP
+References Customer\&.Customer\&.__name\&.
+.SS "def Customer\&.Customer\&.makePayment ( self,  amount)"
+
+.PP
+Makes a payment on this customer's balance\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIamount\fP the amount to be paid, in cents 
+.RE
+.PP
+
+.PP
+Definition at line 99 of file Customer\&.py\&.
+.PP
+References Customer\&.Customer\&.__balance\&.
+.SS "def Customer\&.Customer\&.rentItem ( self,  item,  today)"
+
+.PP
+Rents an item and adds it to this customer's list of items\&. If the item can be rented, this method updates the item's status (including the due date) and then adds it to this customer's list of items\&. If the item cannot be rented to this customer, a \fBStatusException\fP is thrown\&. 
+.PP
+\fBParameters:\fP
+.RS 4
+\fIitem\fP the item to be rented 
+.br
+\fItoday\fP the date on which the item is being rented 
+.RE
+.PP
+\fBExceptions:\fP
+.RS 4
+\fI\fBStatusException\fP\fP if the item cannot be rented to this customer for any reason 
+.RE
+.PP
+
+.PP
+Definition at line 53 of file Customer\&.py\&.
+.PP
+References Customer\&.Customer\&.__balance, Customer\&.Customer\&.__itemsOut, and Customer\&.Customer\&.canRent()\&.
+.SH "Member Data Documentation"
+.PP 
+.SS "Customer\&.Customer\&.__balance\fC [private]\fP"
+
+.PP
+Balance currently owed by this customer\&. 
+.PP
+Definition at line 39 of file Customer\&.py\&.
+.PP
+Referenced by Customer\&.Customer\&.getBalance(), Customer\&.Customer\&.makePayment(), and Customer\&.Customer\&.rentItem()\&.
+.SS "Customer\&.Customer\&.__itemsOut\fC [private]\fP"
+
+.PP
+Items currently rented by this customer\&. 
+.PP
+Definition at line 35 of file Customer\&.py\&.
+.PP
+Referenced by Customer\&.Customer\&.__str__(), Customer\&.Customer\&.canRent(), and Customer\&.Customer\&.rentItem()\&.
+.SS "Customer\&.Customer\&.__name\fC [private]\fP"
+
+.PP
+Name of this customer\&. 
+.PP
+Definition at line 37 of file Customer\&.py\&.
+.PP
+Referenced by Customer\&.Customer\&.__str__(), and Customer\&.Customer\&.getName()\&.
+
+.SH "Author"
+.PP 
+Generated automatically by Doxygen for Video_Store from the source code\&.
